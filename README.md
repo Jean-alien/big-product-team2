@@ -1,2 +1,4 @@
-Studying software
+## Creating a study tool for students
+
+
 
