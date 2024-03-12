@@ -1,2 +1,2 @@
-*** Studying software ***
+**Studying software
 
