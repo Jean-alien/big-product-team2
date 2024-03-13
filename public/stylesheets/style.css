@@ -1,0 +1,104 @@
+.header a {
+  float: left;
+  color: rgb(55, 59, 73);
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header-right {
+  float: right;
+  display: flex;
+  align-items: center;
+}
+
+
+body {
+  background-color: lightblue;
+  font-family: monospace;
+}
+
+.header {
+  margin-left: -20px;
+  margin-right: -10px;
+  height: 45px;
+  background: #eff88c;
+  color: rgb(69, 66, 66);
+  font-size: 20px;
+  min-height: 5vh;
+  font-family: Arial;
+}
+
+br {
+  content: "";
+  margin: 2em;
+  display: block;
+  font-size: 18%;
+}
+
+.add_hotel {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 30px;
+  text-align: center;
+  background-color: #98bcd5;
+  height: 250px;
+  width: 30%;
+  margin: auto;
+  border-width:0;
+}
+
+h3 {
+  margin-top: 22px;
+  text-align: center;
+  font-size: 30px;
+}
+
+h4 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-right: 200px;
+}
+
+.categories {
+  display: flex;
+  text-align: center;
+}
+
+
+.labels {
+  display: flex;
+  gap: 20px;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+button {
+  text-align: center;
+  background-color: #92a5d9;
+  outline: none;
+}
+
+.hotel_records {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
