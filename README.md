@@ -29,4 +29,6 @@ This software uses code from several opensource packages.
 <a href="https://github.com/Mel-Hart-coder/big-product-team2/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Mel-Hart-coder/big-product-team2" />
 </a>
+
+![Taehyun's GitHub Repository Contribution stats](https://github-contributor-stats.vercel.app/api?username=HwangTaehyun&hide=B)
 ![Jean-alien's Stats](https://github-readme-stats.vercel.app/api?username=Jean-alien&theme=algolia&show_icons=true&hide_border=false&count_private=true)
