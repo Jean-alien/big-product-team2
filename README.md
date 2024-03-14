@@ -31,4 +31,6 @@ This software uses code from several opensource packages.
 </a>
 
 ![Taehyun's GitHub Repository Contribution stats](https://github-contributor-stats.vercel.app/api?username=HwangTaehyun&hide=B)
+![Mel-Hart-Coder's Stats](https://github-readme-stats.vercel.app/api?username=Mel-Hart-Coder&theme=algolia&show_icons=true&hide_border=false&count_private=true)
 ![Jean-alien's Stats](https://github-readme-stats.vercel.app/api?username=Jean-alien&theme=algolia&show_icons=true&hide_border=false&count_private=true)
+![Jean-alien's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Jean-alien&theme=algolia&show_icons=true&hide_border=false&layout=compact)
