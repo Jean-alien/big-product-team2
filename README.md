@@ -26,6 +26,6 @@ This software uses code from several opensource packages.
 - MongoDB - The database that stores quiz questions/answers.
 
 ## Contributors
-<a href="https://avatars.githubusercontent.com/u/142450309?v=4">
-  <img src="https://avatars.githubusercontent.com/u/142450309?v=4.png?size=50">
+<a href="https://github.com/Mel-Hart-coder/big-product-team2/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Mel-Hart-coder/big-product-team2" />
 </a>
