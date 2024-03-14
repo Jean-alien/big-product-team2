@@ -5,7 +5,7 @@
 
 1. Set up development environment 
 
-2. USe ejs as a view engine
+2. Use ejs as a view engine
 
 3. Set up API of MongoDB.
 
