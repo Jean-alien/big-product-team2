@@ -25,3 +25,7 @@ This software uses code from several opensource packages.
 - Express - The server side framework used.
 - MongoDB - The database that stores quiz questions/answers.
 
+## Contributors
+<a href="https://avatars.githubusercontent.com/u/142450309?v=4">
+  <img src="https://avatars.githubusercontent.com/u/142450309?v=4.png?size=50">
+</a>
