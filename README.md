@@ -18,8 +18,8 @@
 ▶ layout the components
 
 # Similar websites
-<a href=![image](https://github.com/Mel-Hart-coder/big-product-team2/assets/156375391/a031c9fb-b069-4a64-9c84-205be315c758) /> 
-</a>
+![image](https://github.com/Mel-Hart-coder/big-product-team2/assets/156375391/3f9fb074-5712-44eb-9638-b313c2b79b85)
+
 
 
 # Techs Used
