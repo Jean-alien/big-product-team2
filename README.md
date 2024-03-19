@@ -17,7 +17,12 @@
 6. Style the webpage
 ▶ layout the components
 
+## Check our User Story!
+https://github.com/Mel-Hart-coder/big-product-team2/wiki/Project
+
 ## Similar websites
+### Quizlet 
+Quizlet makes your study more effective and interactive by providing digital flashcards and quizzes!
 
 <a href="https://github.com/Mel-Hart-coder/big-product-team2/assets/156375391/3f9fb074-5712-44eb-9638-b313c2b79b85">
   <img src="https://github.com/Mel-Hart-coder/big-product-team2/assets/156375391/3f9fb074-5712-44eb-9638-b313c2b79b85" alt="image" width="40%" height="40%">
