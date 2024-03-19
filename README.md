@@ -18,7 +18,7 @@
 ▶ layout the components
 
 ## Check our User Story!
-<a href="[url](https://github.com/Mel-Hart-coder/big-product-team2/wiki/Project)">User Story</a> 
+<a href="https://github.com/Mel-Hart-coder/big-product-team2/wiki/Project">User Story</a> 
 
 ## Similar websites
 ### Quizlet 
