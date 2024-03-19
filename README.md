@@ -33,5 +33,5 @@ This software uses code from several opensource packages.
 
 ## Contributors
 <a href="https://github.com/Mel-Hart-coder/big-product-team2/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Mel-Hart-coder/big-product-team2" width="80%" height="80%" />
+  <img src="https://contrib.rocks/image?repo=Mel-Hart-coder/big-product-team2" />
 </a>
