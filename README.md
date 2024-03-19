@@ -17,6 +17,10 @@
 6. Style the webpage
 ▶ layout the components
 
+# Similar websites
+<a href=![image](https://github.com/Mel-Hart-coder/big-product-team2/assets/156375391/a031c9fb-b069-4a64-9c84-205be315c758) /> 
+</a>
+
 
 # Techs Used
 This software uses code from several opensource packages.
@@ -24,6 +28,7 @@ This software uses code from several opensource packages.
 - Node js - The client side framework used.
 - Express - The server side framework used.
 - MongoDB - The database that stores quiz questions/answers.
+- Bootstrap - great UI opensource for modern web pages
 
 ## Contributors
 <a href="https://github.com/Mel-Hart-coder/big-product-team2/graphs/contributors">
