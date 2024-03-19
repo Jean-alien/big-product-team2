@@ -17,8 +17,8 @@
 6. Style the webpage
 ▶ layout the components
 
-## Check our User Story!
-<a href="https://github.com/Mel-Hart-coder/big-product-team2/wiki/Project">User Story</a> 
+## Take a closer look at our Development Journey
+Our User Story Board: <a href="https://github.com/Mel-Hart-coder/big-product-team2/wiki/Project">User Story</a> 
 
 ## Similar websites
 ### Quizlet 
