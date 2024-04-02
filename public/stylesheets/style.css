@@ -76,6 +76,8 @@ br {
   font-size: 18%;
 }
 
+
+
 .add_hotel {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -117,11 +119,14 @@ button {
   background-color: #92a5d9;
   outline: none;
 }
-
-.hotel_records {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
+/* Card and container css where I'm having issues */
+.card{
+  background-color: white;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
 }
 
 footer {
