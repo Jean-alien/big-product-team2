@@ -1,12 +1,13 @@
 require('dotenv').config()
 const express = require('express')
 const app = express()
+let path = require('path');
+app.use(express.static(path.join(__dirname, 'views')));
 const port = process.env.PORT || 5500;
 const { MongoClient, ServerApiVersion } = require('mongodb');
 const ObjectId = require('mongodb').ObjectId;
 const bodyParser = require('body-parser')
 // set the view engine to ejs
-let path = require('path');
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 app.use(bodyParser.urlencoded({ extended: true }))
@@ -21,13 +22,13 @@ const client = new MongoClient("mongodb+srv://abc:jean0855!@cluster0.snv9zih.mon
   }
 });
 
-async function getHotelData() {
+async function getQuizData() {
   try {
     // Connect the client to the server	(optional starting in v4.7)
     await client.connect();
     // Send a ping to confirm a successful connection
     // await client.db("admin").command({ ping: 1 });
-    const result = await client.db("hotel-database").collection("hotel-collection").find().toArray();
+    const result = await client.db("quiz-database").collection("quiz-collection").find().toArray();
 
     console.log("mongo call await inside function: ", result);
 
@@ -36,7 +37,7 @@ async function getHotelData() {
     //console.log("Pinged your deployment. You successfully connected to MongoDB!");
   } 
   catch(err) {
-    console.log("getHotelData() error:", err);
+    console.log("getQuizData() error:", err);
   }
   finally {
     // Ensures that the client will close when you finish/error
@@ -47,25 +48,25 @@ async function getHotelData() {
 // read from mongo
 app.get('/', async (req, res) => {
 
-    let result = await getHotelData().catch(console.error); 
+    let result = await getQuizData().catch(console.error); 
 
-    console.log("getHotelData() result:", result);
+    console.log("getQuizData() result:", result);
 
     res.render('index', {
-      pageTitle: "Hotel Reviews",
-      hotelData: result 
+      pageTitle: "Quiz App",
+      quizData: result 
   
     }); 
 });
   
 
 // create to mongo
-  app.post('/addHotel', async (req, res) => {
+  app.post('/addQuiz', async (req, res) => {
   
     try {
 
       client.connect; 
-      const collection = client.db("hotel-database").collection("hotel-collection");
+      const collection = client.db("quiz-database").collection("quiz-collection");
       
       //draws from body parser
       console.log(req.body);
@@ -84,13 +85,13 @@ app.get('/', async (req, res) => {
   });
   
   
-  app.post('/updateHotel', async (req, res) => {
+  app.post('/updateQuiz', async (req, res) => {
   
     try {
       console.log("req.body: ", req.body) 
       
       client.connect; 
-      const collection = client.db("hotel-database").collection("hotel-collection");
+      const collection = client.db("quiz-database").collection("quiz-collection");
       let result = await collection.findOneAndUpdate( 
         {"_id": new ObjectId(req.body.id)}, {$set: {name: req.body.name, 
         room_type: req.body.room_type, 
@@ -107,11 +108,11 @@ app.get('/', async (req, res) => {
   
   });
   
-  app.post('/deleteHotel', async (req, res) => {
+  app.post('/deleteQuiz', async (req, res) => {
   
     try {
       client.connect; 
-      const collection = client.db("hotel-database").collection("hotel-collection");
+      const collection = client.db("quiz-database").collection("quiz-collection");
       
       //draws from body parser
       console.log(req.body);
