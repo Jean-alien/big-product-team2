@@ -44,20 +44,24 @@
 </div>
 
 <% for (var i=0; i < quizData.length; i++) { %>
-
-    <div class="hotel_records">
+<!-- start of question cards-->
+    <div class="container">
+        <div class="card">
+           
         <form method="POST" action="/updateQuiz">
             <input type="hidden" name="id" value="<%= quizData[i]._id %>">
-            <input type="text" name="name" value="<%= quizData[i].question %>">
+             <input type="text" name="name" value="<%= quizData[i].question %>">
             <input type="text" name="room_type" value="<%= quizData[i].answer %>">
-
             <button type="submit" style="margin-left: 14px; background-color: rgb(111, 150, 223)">Update</button>
         </form>
         <form method="POST" action="/deleteQuiz">
             <input type="hidden" name="id" value="<%= quizData[i]._id %>">
             <button type="submit" style="margin-left: 10px; background-color: rgb(245, 45, 31)">Delete</button>
         </form>
+        </div>
     </div>
+    <!-- end -->
+
 <% } %>
 
 <footer> Connected from my Mongodb 📟
