@@ -67,24 +67,27 @@
             <input type="hidden" name="id" value="<%= quizData[i]._id %>">
              <input type="text" name="name" value="<%= quizData[i].question %>">
            <!--  -->
-           <button type="submit" style="margin-left: 14px; background-color: rgb(111, 150, 223)">Update</button>
-        
+           <div class="card-footer">
+           <button type="submit" id="submit">Update</button>
+        </div>
      
         <form method="POST" action="/deleteQuiz">
             <input type="hidden" name="id" value="<%= quizData[i]._id %>">
-            <button type="submit" style="margin-left: 10px; background-color: rgb(245, 45, 31)">Delete</button>
-        </form>
+            <div class="card-footer">
+            <button type="submit" id="delete" >Delete</button>
+              </div>
+          </form>
         </div>
             <div class="flip-card-back">
 
             <input type="text" name="room_type" value="<%= quizData[i].answer %>">
            
-            <button type="submit" style="margin-left: 14px; background-color: rgb(111, 150, 223)">Update</button>
+            <button type="submit" id="submit">Update</button>
         </form>
      
         <form method="POST" action="/deleteQuiz">
             <input type="hidden" name="id" value="<%= quizData[i]._id %>">
-            <button type="submit" style="margin-left: 10px; background-color: rgb(245, 45, 31)">Delete</button>
+            <button type="submit" class="align-self-end btn btn-lg btn-block btn-primary" style="margin-top: auto;">Delete</button>
         </form>
         
     </div>
