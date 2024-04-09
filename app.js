@@ -165,12 +165,29 @@ app.get('/name', (req,res) => {
   
 })
 
+app.get('/cards', (req, res) => {
 
+//   let result = await getQuizData().catch(console.error); 
+
+//   console.log("getQuizData() result:", result);
+
+//   res.render('index2', {
+//     pageTitle: "Quiz App",
+//     quizData: result 
+
+//   }); 
+// });
+
+  res.render('index2', {
+      quizData : "quiz"
+  });
+  })
 
 app.get('/send', function (req, res) {
   
     res.send('Hello World from Express <br><a href="/">home</a>')
 })
+
 
 
 

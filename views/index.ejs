@@ -10,43 +10,30 @@
         <a href="https://github.com/Jean-alien/maple-leaves-quebec">QUEBEC Source Code</a>
         <a href="https://github.com/Jean-alien">My GitHub</a>
         <a href="https://gist.github.com/barrycumbie/021e297110eff53965d40d400d308ee2" target="_blank">Guideline</a>
+        <a href ="/cards">Cards</a>
     </div>
     </div>
     </header>
 
-
-    <div class="container" id="modal">
-       
-        <button onclick="document.getElementById('id01').style.display='block'" class="button black">Add a new quiz question!</button>
-      
-        <div id="id01" class="modal">
-          <div class="modal-content">
-            <div class="container">
-              <span onclick="document.getElementById('id01').style.display='none'" class="button display-topright">&times;</span>
-              
-              <div class ="add_hotel">
-              <form method="POST" action="/addQuiz">
-                  <label for="name">Course Title</label>
-                  <input name="question" placeholder="Please enter a title of a course">
-                  <br><br>
-                  <label for="room_type">Description</label>
-                  <input name="answer" placeholder="add a brief descrption..">
-                  <br><br>
-                  <label for="name">Question</label>
-                  <input name="question" placeholder="...">
-                  <br><br>
-                  <label for="name">Answer</label>
-                  <input name="question" placeholder="...">
-                  <br><br>
-                  <button type="submit">ADD</button>
-                  </form>
-                  </div>
-              <br><br>
-              
-            </div>
-          </div>
-        </div>
-      </div>
+<h3>Creat a new quiz question!</h3>
+<div class ="add_hotel">
+<form method="POST" action="/addQuiz">
+    <label for="name">Course Title</label>
+    <input name="question" placeholder="Please enter a title of a course">
+    <br><br>
+    <label for="room_type">Description</label>
+    <input name="answer" placeholder="add a brief descrption..">
+    <br><br>
+    <label for="name">Question</label>
+    <input name="question" placeholder="...">
+    <br><br>
+    <label for="name">Answer</label>
+    <input name="question" placeholder="...">
+    <br><br>
+    <button type="submit">ADD</button>
+    </form>
+    </div>
+<br><br>
 
 
 <h4><%= quizData.length %> Collections</h4>
@@ -59,39 +46,24 @@
 
 <% for (var i=0; i < quizData.length; i++) { %>
 <!-- start of question cards-->
-    <div class="container" id="flashcards">
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
+<div class ="row">
+  <div class ="col-md-12">
+    <div class="container">
+        <div class="card">
+           
         <form method="POST" action="/updateQuiz">
             <input type="hidden" name="id" value="<%= quizData[i]._id %>">
              <input type="text" name="name" value="<%= quizData[i].question %>">
-           <!--  -->
-           <div class="card-footer">
-           <button type="submit" id="submit">Update</button>
-        </div>
-     
-        <form method="POST" action="/deleteQuiz">
-            <input type="hidden" name="id" value="<%= quizData[i]._id %>">
-            <div class="card-footer">
-            <button type="submit" id="delete" >Delete</button>
-              </div>
-          </form>
-        </div>
-            <div class="flip-card-back">
-
             <input type="text" name="room_type" value="<%= quizData[i].answer %>">
-           
-            <button type="submit" id="submit">Update</button>
+            <button type="submit" style="margin-left: 14px; background-color: rgb(111, 150, 223)">Update</button>
         </form>
-     
         <form method="POST" action="/deleteQuiz">
             <input type="hidden" name="id" value="<%= quizData[i]._id %>">
-            <button type="submit" class="align-self-end btn btn-lg btn-block btn-primary" style="margin-top: auto;">Delete</button>
+            <button type="submit" style="margin-left: 10px; background-color: rgb(245, 45, 31)">Delete</button>
         </form>
-        
-    </div>
         </div>
+    </div>
+    </div>
     </div>
     <!-- end -->
 
