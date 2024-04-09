@@ -165,23 +165,23 @@ app.get('/name', (req,res) => {
   
 })
 
-app.get('/cards', (req, res) => {
+app.get('/cards', async (req, res) => {
 
-//   let result = await getQuizData().catch(console.error); 
+  let result = await getQuizData().catch(console.error); 
 
-//   console.log("getQuizData() result:", result);
-
-//   res.render('index2', {
-//     pageTitle: "Quiz App",
-//     quizData: result 
-
-//   }); 
-// });
+  console.log("getQuizData() result:", result);
 
   res.render('index2', {
-      quizData : "quiz"
-  });
-  })
+    pageTitle: "Quiz App",
+    quizData: result 
+
+  }); 
+});
+
+  // res.render('index2', {
+  //     quizData : result
+  // });
+  // })
 
 app.get('/send', function (req, res) {
   

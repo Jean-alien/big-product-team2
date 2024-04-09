@@ -62,53 +62,63 @@
         </div>
     </div>
 
-    <div class="col-md-12">
-        <div class='row'>
+    <!-- <div class="col-md-12">
+        <div class='row'> -->
+            
+        <div class="container" id="flashcards">
+            <div class="row"> 
     <% for (var i=0; i < quizData.length; i++) { %>
         <!-- start of question cards-->
-        
-            
-                <div class="container" id="flashcards">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <form method="POST" action="/updateQuiz">
-                                    <input type="hidden" name="id" value="<%= quizData[i]._id %>">
-                                    <input type="text" name="name" value="<%= quizData[i].question %>">
-                                    <!--  -->
-                                    <div class="card-footer">
-                                        <button type="submit" id="submit">Update</button>
-                                    </div>
+
+<!-- 
+        <div class="container" id="flashcards">
+            <div class="row"> -->
+                <div class="col-lg-3">
+                    <div class="card">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <form method="POST" action="/updateQuiz">
+                                        <input type="hidden" name="id" value="<%= quizData[i]._id %>">
+                                        <input type="text" name="name" value="<%= quizData[i].question %>">
+                                        <!--  -->
+                                        <div class="card-footer">
+                                            <button type="submit" id="submit">Update</button>
+                                        </div>
+
+                                        <form method="POST" action="/deleteQuiz">
+                                            <input type="hidden" name="id" value="<%= quizData[i]._id %>">
+                                            <div class="card-footer">
+                                                <button type="submit" id="delete">Delete</button>
+                                            </div>
+                                        </form>
+                                </div>
+                                <div class="flip-card-back">
+
+                                    <input type="text" name="room_type" value="<%= quizData[i].answer %>">
+
+                                    <button type="submit" id="submit">Update</button>
+                                    </form>
 
                                     <form method="POST" action="/deleteQuiz">
                                         <input type="hidden" name="id" value="<%= quizData[i]._id %>">
-                                        <div class="card-footer">
-                                            <button type="submit" id="delete">Delete</button>
-                                        </div>
+                                        <button type="submit" class="align-self-end btn btn-lg btn-block btn-primary"
+                                            style="margin-top: auto;">Delete</button>
                                     </form>
-                            </div>
-                            <div class="flip-card-back">
 
-                                <input type="text" name="room_type" value="<%= quizData[i].answer %>">
-
-                                <button type="submit" id="submit">Update</button>
-                                </form>
-
-                                <form method="POST" action="/deleteQuiz">
-                                    <input type="hidden" name="id" value="<%= quizData[i]._id %>">
-                                    <button type="submit" class="align-self-end btn btn-lg btn-block btn-primary"
-                                        style="margin-top: auto;">Delete</button>
-                                </form>
-
+                                </div>
                             </div>
                         </div>
                     </div>
-    
+                </div>
+            <!-- </div>
+        </div> -->
+
             <!-- end -->
 
             <% } %>
-</div>
-</div>
+                </div>
+            </div>
 
                 <footer> Connected from my Mongodb 📟
                     <a href="/send">send </a> |
