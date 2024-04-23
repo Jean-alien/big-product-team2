@@ -1,20 +1,22 @@
 require('dotenv').config();
 const express = require('express');
-const path = require('path');
-const app = require('./server'); // Import the Express app instance from server.js
-const passport = require('passport');
-const initializePassport = require('./passport_config');
+const app = express()
+let path = require('path'); 
+//const passport = require('passport');
+//const initializePassport = require('./config');
+const collection = require("./config");
+const bcrypt = require('bcrypt');
 const { MongoClient, ServerApiVersion } = require('mongodb');
 const ObjectId = require('mongodb').ObjectId;
 const bodyParser = require('body-parser');
 const router = express.Router()
-
+const userRouter = require('./user');
 
 // set the view engine to ejs
 app.set('view engine', 'ejs');
 app.set("views", [
     path.join(__dirname, "views"),
-    path.join(__dirname, "views", "auth_views")
+    path.join(__dirname, "views", "MDB")
 ]);
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
@@ -94,11 +96,10 @@ app.get('/send', function (req, res) {
     res.send('Hello World from Express <br><a href="/">home</a>');
 });
 
+// Use the userRouter defined in user.js
+app.use('/', userRouter);
+
 const port = process.env.PORT || 5500;
 app.listen(port, () => {
     console.log(`ubiquiz listening on port ${port}`);
 });
-
-initializePassport(passport);
-app.use(passport.initialize());
-app.use(passport.session());

@@ -29,6 +29,7 @@ app.post("/register", async (req, res) => {
         name: req.body.username,
         password: req.body.password
     }
+    console.log("user successfully registered");
 
     // Check if the username already exists in the database
     const existingUser = await collection.findOne({ name: data.name });
