@@ -42,9 +42,9 @@ This software uses code from several opensource packages.
 
 - Node js - The client side framework used.
 - Express - The server side framework used.
-- MongoDB - The database that stores quiz questions/answers.
+- MongoDB - The database that stores quiz questions/answers and user information including usernames & passwords.
 - Bootstrap - UI framework with multiple web design resources.
-- Bcrypt - Provides password hash function
+- Bcrypt - Provides password hash function.
 
 ## Contributors
 <a href="https://github.com/Mel-Hart-coder/big-product-team2/graphs/contributors">
