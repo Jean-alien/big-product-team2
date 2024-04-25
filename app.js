@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({ extended: true }))
 app.use(express.static("public"))
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
-const client = new MongoClient("mongodb+srv://abc:jean0855!@cluster0.snv9zih.mongodb.net/", {
+const client = new MongoClient("mongodb+srv://abc:passw0rd@cluster0.snv9zih.mongodb.net/", {
   serverApi: {
     version: ServerApiVersion.v1,
     strict: true,
