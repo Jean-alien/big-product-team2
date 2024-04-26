@@ -64,8 +64,68 @@
 
     <!-- <div class="col-md-12">
         <div class='row'> -->
+
             
+            <div class="row">
+                <% for (var i=0; i < quizData.length; i++) { %>
+                    <div class="col-sm-3">
+
+                            <!-- <div >
+                               <div class="card-header">
+                                <%= quizData[i]._id %>
+                               </div> -->
+                           
+                               <button>edit</button>
+                    <div class="flip-card card">
+                        <div id="cat<%=i%>" class="card flip-card-inner">
+                          <div class="card-body flip-card-front">
+
+                                <!-- <div class="flip-card-inner"> -->
+                              
+                            <!-- <h4 class="card-title">Question #${i+2}</h4> -->
+                            <!-- <p class="card-text"> -->
+                              <!-- <i class="bi bi-pencil-fill float-end"></i> -->
+                              <form method="POST" action="/updateQuiz">
+                                <input type="hidden" name="id" value="<%= quizData[i]._id %>">
+                                <p><%= quizData[i].question %></p>                                <!--  -->
+                                <div class="card-footer">
+                                    <button type="submit" id="submit">Update</button>
+                                </div>
+
+                                <form method="POST" action="/deleteQuiz">
+                                    <input type="hidden" name="id" value="<%= quizData[i]._id %>">
+                                    <div class="card-footer">
+                                        <button type="submit" id="delete">Delete</button>
+                                    </div>
+                                </form>  
+                            <!-- </p> -->
+                          </div>
+                          <div class="card-body flip-card-back">
+                            <h4 class="card-title">Answer #${i+2}</h4>
+                            <p class="card-text">...answer...</p>
+                          </div>
+                          <!-- <div class="card-body edit">
+                            <h4 class="card-title">Answer #${i+2}</h4>
+                            <p class="card-text">
+                              <textarea>What is the command to set the user email for the current repository?</textarea>
+                              <textarea>...answer...</textarea>
+                            </p>
+                            <i class="bi bi-x-lg float-end"></i>
+                          </div> -->
+                        </div>
+                    
+                      </div>
+                      <!-- <div class="card-footer">
+                        <button>update</button>
+                      </div> -->
+                      </div>
+                <% } %>
+            
+            </div>
+            
+
         <div class="container" id="flashcards">
+
             <div class="row"> 
     <% for (var i=0; i < quizData.length; i++) { %>
         <!-- start of question cards-->

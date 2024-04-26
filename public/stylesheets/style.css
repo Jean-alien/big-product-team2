@@ -76,6 +76,9 @@ br {
   font-size: 18%;
 }
 
+.card {
+  margin: 0.5em; 
+}
 
 
 /* .add_hotel {
@@ -169,7 +172,7 @@ footer {
  .flip-card {
   
   background-color: transparent;
-  width: 200px;
+  /* width: 200px; */
   height: 200px;
   perspective: 1000px;
 }
