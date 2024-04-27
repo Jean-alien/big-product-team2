@@ -50,6 +50,7 @@ body {
   margin-top: 0.8em;
   text-transform: uppercase;
   font-weight: small;
+  color: black;
 }
 /*
 .btn-primary {
@@ -63,6 +64,23 @@ body {
   transition: background 0.3s ease-in-out;
 }
 
+
+.button-add:hover {
+  background-color: #fff183;
+  color: #232543;
+  transition: background 0.3s ease-in-out;
+}
+
+
+.button-update:hover {
+  background-color: #22224f;
+  transition: background 0.3s ease-in-out;
+}
+
+.button-delete:hover {
+  background-color: #760101;
+  transition: background 0.3s ease-in-out;
+}
 /* ............/navbar/............ */
 
 .navbar input[type="checkbox"],
@@ -268,6 +286,7 @@ button {
   cursor: pointer;
   border: none;
   text-transform: uppercase;
+  color: black;
   
 }
 
@@ -316,24 +335,29 @@ input[type="text"]
 */
 
 input[type='text'] {
-  white-space: pre-wrap;
-  height: 100px; /* or */
-  overflow: auto;
+  line-height: 3;
+  border-radius: 5%;
+  display: inline-block;
+  
 }
 
+/*
 .quiz-block {
   width: 90%;
   height: 65px;
-  border-radius: 20%;
+  border-radius: 5%;
+
+  padding: 0.25em 0.5em;
+  outline: none;
+  border: none;
+}
+
+/*
+.quizcont {
+  color: gray;
   overflow: visible;
   white-space: normal;
 }
-
-.quizcont {
-  color: gray;
-}
-
-
 /*
 
 .quiz-block {
