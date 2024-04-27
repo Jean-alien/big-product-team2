@@ -1,0 +1,60 @@
+<!---<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>Animated Login Form</title>
+
+  <link rel="stylesheet" type="text/css" href="/css/dashboard.css">
+
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/@material-tailwind/html@latest/styles/material-tailwind.css"
+/>
+  -->
+<!---
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>TW Elements Quick Start</title>
+      <link
+      rel="stylesheet"
+      href="https://unpkg.com/@material-tailwind/html@latest/styles/material-tailwind.css"
+/>
+  
+<script src="https://unpkg.com/@material-tailwind/html@latest/scripts/script-name.js"></script>
+    <body>
+    -->
+
+      "use client";
+      import React from "react";
+      import { SparklesCore } from "../ui/sparkles";
+      
+      export function SparklesPreview() {
+      return (
+      <div
+        className="h-[40rem] relative w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
+        <div className="w-full absolute inset-0 h-screen">
+          <SparklesCore id="tsparticlesfullpage" background="transparent" minSize={0.6} maxSize={1.4} particleDensity={100}
+            className="w-full h-full" particleColor="#FFFFFF" />
+        </div>
+        <h1 className="md:text-7xl text-3xl lg:text-6xl font-bold text-center text-white relative z-20">
+          Build great products
+        </h1>
+      </div>
+      );
+      }
+      
+      

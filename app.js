@@ -12,11 +12,11 @@ const bodyParser = require('body-parser');
 const router = express.Router()
 const userRouter = require('./user');
 
+
 // set the view engine to ejs
 app.set('view engine', 'ejs');
 app.set("views", [
-    path.join(__dirname, "views"),
-    path.join(__dirname, "views", "MDB")
+    path.join(__dirname, "views")
 ]);
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
@@ -43,10 +43,11 @@ async function getQuizData() {
 
 
 app.get('/', async (req, res) => {
-    const result = await getQuizData();
+    const result = await getQuizData().catch(console.error);
     res.render('index', {
         pageTitle: "Quiz App",
-        quizData: result
+        quizData: result,
+        session: req.session
     });
 });
 
@@ -99,7 +100,7 @@ app.get('/send', function (req, res) {
 // Use the userRouter defined in user.js
 app.use('/', userRouter);
 
-const port = process.env.PORT || 5500;
+const port = process.env.PORT || 3000;
 app.listen(port, () => {
     console.log(`ubiquiz listening on port ${port}`);
 });
