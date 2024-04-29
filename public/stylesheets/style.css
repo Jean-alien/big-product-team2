@@ -80,6 +80,28 @@ br {
   margin: 0.5em; 
 }
 
+.cards{
+  margin: 0.5em;
+}
+
+.textarea{
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  resize: both;
+  min-height: 40px;
+  line-height: 20px;
+  border: 1px solid #ccc;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 1px 6px;
+}
+
+.textarea[contenteditable]:empty::before {
+  content: "Placeholder still possible";
+  color: gray;
+}
+
 
 /* .add_hotel {
   padding-top: 20px;
