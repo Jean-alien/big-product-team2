@@ -54,9 +54,13 @@
                   <div class="card-body">
                       <div class="btn-group" role="group" aria-label="Basic example">
                           <form method="POST" action="/updateQuiz">
-                              <input type="hidden" name="id" value="<%= quizData[i]._id %>">
-                              <input type="text" name="name" class= 'textarea' value="<%= quizData[i].question %>">
-                              <input type="text" name="room_type" class= 'textarea' value="<%= quizData[i].answer %>">
+                              <!-- <input type="hidden" name="id" value="<%= quizData[i]._id %>"> -->
+                              <p class ='card-text'>
+                                <textarea><%= quizData[i].question%></textarea>
+                                <textarea><%= quizData[i].answer %></textarea>
+                              </p>
+                              <!-- <input type="text" name="name" class= 'textarea' value="<%= quizData[i].question %>">
+                              <input type="text" name="room_type" class= 'textarea' value="<%= quizData[i].answer %>"> -->
                               <button type="submit" style="margin-left: 14px; background-color: rgb(111, 150, 223)">Update</button>
                           </form>
                           <form method="POST" action="/deleteQuiz">
@@ -91,4 +95,8 @@
     <a href="https://github.com/Jean-alien/maple-leaves-quebec" target="_blank"> Source Repo</a>
 </footer>
 
+
+
 <%- include('partials/html-end.ejs') %>
+
+<script src="../script.js"></script>
