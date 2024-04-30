@@ -28,7 +28,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background:#bbd4ed;
+  background: #bbd4ed;
   color: #2f2f2f;
 }
 
@@ -81,6 +81,7 @@ body {
   background-color: #760101;
   transition: background 0.3s ease-in-out;
 }
+
 /* ............/navbar/............ */
 
 .navbar input[type="checkbox"],
@@ -95,12 +96,12 @@ body {
   font-size: 45 px
 } */
 .logo {
-    width: 215px;
-    height: 200px;
-    margin-top: 0.5%;
-    position: absolute;
-    left: 50px;
-  
+  width: 215px;
+  height: 200px;
+  margin-top: 0.5%;
+  position: absolute;
+  left: 50px;
+
 }
 
 .navbar-nav .nav-item:hover {
@@ -145,9 +146,9 @@ h2 {
   align-items: center;
   justify-content: space-between;
   margin: 100px 0 0 0;
-  }
+}
 
-  /* .criteria {
+/* .criteria {
     display: flex;
     justify-content: space-between;
   }
@@ -185,7 +186,7 @@ br {
 
 
 
- .add_quiz {
+.add_quiz {
   padding-top: 20px;
   padding-bottom: 20px;
   margin-top: 30px;
@@ -193,20 +194,21 @@ br {
   height: 170px;
   width: 300px;
   margin: auto;
-  border-width:0;
-} 
-#id01{
-  
+  border-width: 0;
+}
+
+#id01 {
+
   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   width: 700px;
-   height: 300px;
-   background-color: white;
-   border: 1px solid black;
-   box-shadow: 10px 10px 5px #888888;
-  
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+  height: 300px;
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 10px 10px 5px #888888;
+
 }
 
 h3 {
@@ -241,7 +243,7 @@ button {
   font-size: 18px;
   line-height: 25px;
   border-radius: 4px;
-  
+
 }
 
 .button-add {
@@ -249,7 +251,7 @@ button {
 }
 
 .button-update {
-  background-color:rgb(68, 139, 255);
+  background-color: rgb(68, 139, 255);
   display: inline-block;
   padding: 0.5em 0.5em;
   text-decoration: none;
@@ -260,7 +262,7 @@ button {
 }
 
 .button-delete {
-  background-color:rgb(195, 0, 0);
+  background-color: rgb(195, 0, 0);
   display: inline-block;
   padding: 0.5em 0.5em;
   text-decoration: none;
@@ -269,11 +271,11 @@ button {
   border: none;
   text-transform: uppercase;
   color: black;
-  
+
 }
 
 #button-delete {
-  background-color:rgb(195, 0, 0);
+  background-color: rgb(195, 0, 0);
   display: inline-block;
   padding: 0.5em 0.7em;
   text-decoration: none;
@@ -288,19 +290,21 @@ button {
 .btn-add {
   margin: 20px;
 }
+
 /* Card and container css where I'm having issues */
 
 #flashcards {
   display: grid;
 
-grid-template-columns: repeat(3, 1fr);
-
-grid-auto-rows: auto;
-
-grid-gap: 1rem;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10px; 
+
+  grid-auto-rows: auto;
+
+  grid-gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
 }
+
 /*
 input[type="text"]
 {
@@ -320,7 +324,7 @@ input[type='text'] {
   line-height: 3;
   border-radius: 5%;
   display: inline-block;
-  
+
 }
 
 
@@ -370,8 +374,8 @@ footer {
 }
 
 /* flip card test */
- .flip-card {
-  
+.flip-card {
+
   background-color: transparent;
   width: 350px;
   height: 200px;
@@ -385,19 +389,20 @@ footer {
   text-align: center;
   transition: transform 1s;
   transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .edit {
   background-color: #f1f1f1;
-  color: black; 
+  color: black;
 }
 
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
 
-.flip-card-front, .flip-card-back {
+.flip-card-front,
+.flip-card-back {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -408,32 +413,27 @@ footer {
 .flip-card-front {
   background-color: white;
   color: black;
- 
+
 }
 
 .flip-card-back {
   background-color: white;
   color: black;
-  transform: rotateY( 180deg );
+  transform: rotateY(180deg);
 
 }
+
 .flip-card.is-flipped {
   transform: rotateY(180deg);
-} 
- 
+}
+
 .card {
-  margin: 0.5em; 
+  margin: 0.5em;
   background-color: white;
 }
 
 
-
-
-
-
-
-
-.cards{
+.cards {
   margin: 0.5em;
 }
 
@@ -445,32 +445,35 @@ footer {
 }
 
 
-#delete{
+#delete {
   background-color: red;
-  
- width: 60px;
- height: 40px;
- font-size: small;
 
-text-align: center;
+  width: 60px;
+  height: 40px;
+  font-size: small;
+
+  text-align: center;
 }
 
-footer {
+#footer {
+  height: 34px;
   background: #141414;
-  }
-  
-footer p {
-    text-align: center;
-    justify-content: center;
-    font-size: 0.9rem;
-    color: #fff;
-    line-height: 0%;
-  }
-
-  footer a {
-    color: #fff;
 }
 
-footer a:hover, footer a:active, footer a:visited{
-    color: #fa5705;
+#footer p {
+  margin-top: 8px;
+  text-align: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  color: #fff;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer a:hover,
+footer a:active,
+footer a:visited {
+  color: #fa5705;
 }
