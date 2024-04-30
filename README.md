@@ -1,2 +1,52 @@
-Screenshot of Dashboard page
-![image](https://github.com/Jean-alien/big-product-team2/assets/156375391/2b93c5f6-544f-458a-8b8b-9fd75c9e6c6e)
+## Creating a study tool for students
+
+Render: (https://big-product-team2.onrender.com)
+
+## We are creating a Quiz web platform that allows users to read, create, update and delete quiz questions. 
+
+1. Set up development environment 
+
+2. Use ejs as a view engine
+
+3. Set up API of MongoDB.
+
+4. Insert quiz questions and answers in MongoDB. 
+
+5. Create CRUD operation
+▶ users are able to A. View B. Add C. Modify D. Delete quiz database. 
+
+6. Style the webpage
+▶ layout the components
+
+## Take a closer look at our Development Journey
+Our User Story Board: <a href="https://github.com/Mel-Hart-coder/big-product-team2/wiki/Project">User Story</a> 
+
+Our Project Progress Board: <a href="https://github.com/users/Jean-alien/projects/3">Kanban Board</a>
+
+## Similar websites
+### Quizlet 
+Quizlet makes your study more effective and interactive by providing digital flashcards and quizzes!
+
+<a href="https://github.com/Mel-Hart-coder/big-product-team2/assets/156375391/3f9fb074-5712-44eb-9638-b313c2b79b85">
+  <img src="https://github.com/Mel-Hart-coder/big-product-team2/assets/156375391/3f9fb074-5712-44eb-9638-b313c2b79b85" alt="image" width="40%" height="40%">
+</a>
+
+
+<a href="https://github.com/Mel-Hart-coder/big-product-team2/assets/156375391/1b4e8a81-b784-4617-b142-559eafa10e9e">
+  <img src="https://github.com/Mel-Hart-coder/big-product-team2/assets/156375391/1b4e8a81-b784-4617-b142-559eafa10e9e" alt="image" width="45%" height="45%">
+</a>
+
+
+## Techs Used
+This software uses code from several opensource packages.
+
+- Node js - The client side framework used.
+- Express - The server side framework used.
+- MongoDB - The database that stores quiz questions/answers and user information including usernames & passwords.
+- Bootstrap - UI framework with multiple web design resources.
+- Bcrypt - Provides password hash function.
+
+## Contributors
+<a href="https://github.com/Mel-Hart-coder/big-product-team2/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Mel-Hart-coder/big-product-team2" />
+</a>
