@@ -2,8 +2,7 @@
   "name": "big-product-team2",
   "version": "1.0.0",
   "description": "CIS 486 Quiz App",
-  "main": "app.js"
-  ,
+  "main": "app.js",
   "scripts": {
     "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"

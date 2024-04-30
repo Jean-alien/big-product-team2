@@ -48,20 +48,10 @@ body {
 
 /* ............/navbar/............ */
 
-.navbar input[type="checkbox"],
-.navbar .hamburger-lines {
-  display: none;
+.navbar-nav .nav-item:hover {
+  background-color: rgba(180, 190, 203, 0.4);
 }
 
-
-.logo-header {
-    width: 215px;
-    height: 215px;
-    margin-top: 0.5%;
-    position: absolute;
-    left: -20px;
-  
-}
 .navbar {
   box-shadow: 0px 5px 14px 0px #ebebeb;
   position: fixed;
@@ -70,35 +60,19 @@ body {
   color: #eff4b9;
   height: 65px;
   z-index: 12;
+  margin: 0px 0 0 -12px;
+  color: white;
 }
 
-.navbar-container {
-  display: flex;
-  justify-content: space-between;
-  height: 65px;
-  align-items: center;
-}
 
-.nav-items {
-  order: 2;
-  display: flex;
-}
-
-.nav-items li {
-  list-style: none;
-  margin-left: 1.5rem;
-  font-size: 1.2rem;
-  margin-top: 17px;
-}
-
-.nav-items a {
+#navbarNav a {
   text-decoration: none;
   color: #efefef;
   font-weight: 500;
   transition: color 0.3s ease-in-out;
 }
 
-.nav-items a:hover {
+#navbarNav a:hover {
   color: #fffc4d;
   transition: color 0.3s ease-in-out;
 }

@@ -1,7 +1,7 @@
 require('dotenv').config();
 const express = require('express');
 const app = express()
-let path = require('path'); 
+let path = require('path');
 //const passport = require('passport');
 //const initializePassport = require('./config');
 const collection = require("./config");
@@ -32,7 +32,11 @@ const client = new MongoClient("mongodb+srv://abc:passw0rd@cluster0.snv9zih.mong
 async function getQuizData() {
     try {
         await client.connect();
-        const result = await client.db("quiz-database").collection("quiz-collection").find().toArray();
+        const result = await client
+            .db("quiz-database")
+            .collection("quiz-collection")
+            .find()
+            .toArray();
         return result;
     } catch (err) {
         console.log("getQuizData() error:", err);
@@ -43,25 +47,38 @@ async function getQuizData() {
 
 
 app.get('/', async (req, res) => {
-    const result = await getQuizData().catch(console.error);
+    let result = await getQuizData().catch(console.error);
+
+    console.log("getQuizData() result:", result);
+
     res.render('index', {
         pageTitle: "Quiz App",
-        quizData: result,
-        session: req.session
+        quizData: result
     });
 });
 
 app.post('/addQuiz', async (req, res) => {
+  
     try {
-        client.connect();
-        const collection = client.db("quiz-database").collection("quiz-collection");
-        console.log(req.body);
-        await collection.insertOne(req.body);
-        res.redirect('/');
-    } catch (err) {
-        console.log(err)
+
+      client.connect; 
+      const collection = client.db("quiz-database").collection("quiz-collection");
+      
+      //draws from body parser
+      console.log(req.body);
+      
+      await collection.insertOne(req.body);
+
+        
+      res.redirect('/');
     }
-});
+    catch(err){
+      console.log(err)
+    }
+    finally{
+    }
+  
+  });
 
 app.post('/updateQuiz', async (req, res) => {
     try {
@@ -97,10 +114,23 @@ app.get('/send', function (req, res) {
     res.send('Hello World from Express <br><a href="/">home</a>');
 });
 
+app.get('/flashcards', async (req, res) => {
+
+    let result = await getQuizData().catch(console.error); 
+  
+    console.log("getQuizData() result:", result);
+  
+    res.render('flashcards', {
+      pageTitle: "Quiz App",
+      quizData: result 
+  
+    }); 
+  });
+
 // Use the userRouter defined in user.js
 app.use('/', userRouter);
 
-const port = process.env.PORT || 3600;
+const port = process.env.PORT || 3000;
 app.listen(port, () => {
     console.log(`ubiquiz listening on port ${port}`);
 });
