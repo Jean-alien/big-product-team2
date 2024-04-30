@@ -1,4 +1,14 @@
 ## Creating a study tool for students
+# User Story
+
+## 👕 Large
+
+**As a** broke college student <br>
+
+**I want to** view, create, update, and delete flashcards 🗂️ <br>
+
+**So I can** study and ace my test 🤓 
+
 
 Render: (https://big-product-team2.onrender.com)
 
