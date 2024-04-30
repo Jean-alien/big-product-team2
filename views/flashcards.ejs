@@ -1,172 +1,168 @@
 <%- include('partials/html-start.ejs') %>
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
 
-    <nav class="navbar navbar-expand-lg navar fixed-top navbar-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="/home"><img src="/img/logo.png" alt="logo" width="199" height='177'
-              margin-top="0.5"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-md-auto gap-2">
-              <li class="nav-item rounded">
-                <a class="nav-link" href="/home"></i>Home</a>
-              </li>
-              <li class="nav-item rounded">
-                <a class="nav-link" href="#about"></i>About</a>
-              </li>
-              <li class="nav-item rounded">
-                <a class="nav-link" href="/"></i>Cards</a>
-              </li>
-              <li class="nav-item rounded">
-                <a class="nav-link" href="/login"></i>Login</a>
-              </li>
-              <li class="nav-item rounded">
-                <a class="nav-link" href="/register"></i>Sign Up</a>
-              </li>
-            </ul>
+  <nav class="navbar navbar-expand-lg navar fixed-top navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/home"><img src="/img/logo.png" alt="logo" width="199" height='177'
+          margin-top="0.5"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-md-auto gap-2">
+          <li class="nav-item rounded">
+            <a class="nav-link" href="/home"></i>Home</a>
+          </li>
+          <li class="nav-item rounded">
+            <a class="nav-link" href="#about"></i>About</a>
+          </li>
+          <li class="nav-item rounded">
+            <a class="nav-link" href="/"></i>Cards</a>
+          </li>
+          <li class="nav-item rounded">
+            <a class="nav-link" href="/login"></i>Login</a>
+          </li>
+          <li class="nav-item rounded">
+            <a class="nav-link" href="/register"></i>Sign Up</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="container" id="modal">
+
+    <button onclick="document.getElementById('id01').style.display='block'" class="button-add">Add a new quiz
+      question!</button>
+
+    <div id="id01" class="modal">
+      <div class="modal-content">
+        <div class="container">
+          <span onclick="document.getElementById('id01').style.display='none'"
+            class="button display-topright">&times;</span>
+
+          <div class="add_quiz">
+            <form method="POST" action="/addQuiz2">
+              <label for="name">Question: </label>
+              <input name="question" placeholder="add your question">
+              <br><br>
+              <label for="room_type">Answer: </label>
+              <input name="answer" placeholder="add your answer">
+              <br><br>
+              <button type="submit" class="btn-add">ADD</button>
+            </form>
           </div>
+          <br><br>
+
         </div>
-      </nav>
+      </div>
+    </div>
+  </div>
 
 
-    <div class="container" id="modal">
+  <h4>
+    <%= quizData.length %> Collections
+  </h4>
 
-        <button onclick="document.getElementById('id01').style.display='block'" class="button-add">Add a new quiz
-            question!</button>
 
-        <div id="id01" class="modal">
-            <div class="modal-content">
-                <div class="container">
-                    <span onclick="document.getElementById('id01').style.display='none'"
-                        class="button display-topright">&times;</span>
-
-                    <div class="add_quiz">
-                        <form method="POST" action="/addQuiz">
-                            <label for="name">Question: </label>
-                            <input name="question" placeholder="add your question">
-                            <br><br>
-                            <label for="room_type">Answer: </label>
-                            <input name="answer" placeholder="add your answer">
-                            <br><br>
-                            <button type="submit" class="btn-add">ADD</button>
-                        </form>
-                    </div>
-                    <br><br>
-
-                </div>
+  <div class="row">
+    <% for (var i=0; i < quizData.length; i++) { %>
+      <!-- start of question cards-->
+      <div class="col-sm-3">
+        <div class="flip-card card">
+          <div id="cat<%=i%>" class="card flip-card-inner">
+            <div class="card-body flip-card-front">
+              <p class="card-text">
+                <%= quizData[i].question %>
+              </p>
+              <i class="bi bi-pencil-fill float-end"></i>
+              <!--  -->
             </div>
+            <div class="card-body flip-card-back">
+              <p>Answer</p>
+              <p class="card-text">
+                <%= quizData[i].answer %>
+              </p>
+              <i class="bi bi-pencil-fill float-end"></i>
+            </div>
+            <div class="card-body edit">
+              <h4 class="card-title">EDIT</h4>
+
+              <form method="POST" action="/updateQuiz2">
+                <input type="hidden" name="id" value="<%= quizData[i]._id %>">
+                <p class='card-text'>
+                  <textarea name="question"><%= quizData[i].question%></textarea>
+                  <textarea name="answer"><%= quizData[i].answer %></textarea>
+                </p>
+                <!-- <input type="text" name="name" class= 'textarea' value="<%= quizData[i].question %>">
+                              <input type="text" name="room_type" class= 'textarea' value="<%= quizData[i].answer %>"> -->
+                <button type="submit" style="margin-left: 14px; background-color: rgb(111, 150, 223)">Update</button>
+              </form>
+              <form method="POST" action="/deleteQuiz2">
+                <input type="hidden" name="id" value="<%= quizData[i]._id %>">
+                <button type="submit" style="margin-left: 10px; background-color: rgb(245, 45, 31)">Delete</button>
+              </form>
+              <i class="bi bi-x-lg float-end"></i>
+            </div>
+          </div>
+
         </div>
-    </div>
+      </div>
 
+      <!-- end -->
 
-    <h4>
-        <%= quizData.length %> Collections
-    </h4>
+      <% } %>
+  </div>
 
-
-    <div class="row">
-        <% for (var i=0; i < quizData.length; i++) { %>
-            <!-- start of question cards-->
-            <div class="col-sm-3">
-                <div class="flip-card card">
-                    <div id="cat<%=i%>" class="card flip-card-inner">
-                        <div class="card-body flip-card-front">
-                            <p class="card-text">
-                                <%= quizData[i].question %>
-                            </p>
-                            <i class="bi bi-pencil-fill float-end"></i>
-                            <!--  -->
-                        </div>
-                        <div class="card-body flip-card-back">
-                            <p>Answer</p>
-                            <p class="card-text">
-                                <%= quizData[i].answer %>
-                            </p>
-                            <i class="bi bi-pencil-fill float-end"></i>
-                        </div>
-                        <div class="card-body edit">
-                            <h4 class="card-title">EDIT</h4>
-                            <p class="card-text">
-                                <textarea><%= quizData[i].question %></textarea>
-                                <textarea><%= quizData[i].answer %></textarea>
-                            </p>
-                            <form method="POST" action="/updateQuiz">
-                              <input type="hidden" name="id" value="<%= quizData[i]._id %>"> 
-                              <div class="card-footer">
-                                  <button type="submit" id="submit">Update</button>
-                              </div>
-                          </form>
-
-                          <form method="POST" action="/deleteQuiz">
-                              <input type="hidden" name="id" value="<%= quizData[i]._id %>">
-                              <div class="card-footer">
-                                  <button type="submit" id="delete">Delete</button>
-                              </div>
-                          </form>
-                            <i class="bi bi-x-lg float-end"></i>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-            <!-- end -->
-
-            <% } %>
-    </div>
-
-    <footer id="footer"> 
-      <p><a href="https://github.com/Jean-alien/big-product-team2" target="_blank" class="footer-link">
-          Source Repo</a></p>
-          <p>Connected from my Mongodb 📟</p>
-          <p>Ubiquiz &copy; all rights reserved</p>
+  <footer id="footer">
+    <p><a href="https://github.com/Jean-alien/big-product-team2" target="_blank" class="footer-link">
+        Source Repo</a></p>
+    <p>Connected from my Mongodb 📟</p>
+    <p>Ubiquiz &copy; all rights reserved</p>
   </footer>
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js"></script>
-<script>
-  $(document).ready(function () {
-    $(".flip-card").on("click", (e)=>{
-    
-    let $clickedCard = $(e.target).closest(".flip-card"); 
-   
-      if($(e.target).prop("tagName")!="I" && $clickedCard.find(".edit").is(":hidden")){
-        //grab the containing .card regardless of what element was clicked inside the card  
-        let $clickedCard = $(e.target).closest(".flip-card");
-  
-        //locate the closest classes .back and .front and toggle (hide/show)
-        $clickedCard.find(".back, .front").toggle();
-        $clickedCard.find(".edit").hide();
-          
-        }
-      else if($(e.target).prop("tagName")==="I"){
-  
-        if($(e.target).prop("className") == "bi bi-pencil-fill float-end")
-        { 
-          $clickedCard.find(".back").hide();
-          $clickedCard.find(".front").hide();
-          $clickedCard.find(".edit").show();  
-        }
-        else if($(e.target).prop("className") == "bi bi-x-lg float-end")
-        { 
-          $clickedCard.find(".front").show();
-          $clickedCard.find(".edit").hide();  
-        }
-      }
-    
-     
-  }); 
-  
-  
-  $(".back, .edit").hide();  
-  $("#quiz-things").hide();
-   
-});
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".flip-card").on("click", (e) => {
 
-</script>
-    <%- include('partials/html-end.ejs') %>
+        let $clickedCard = $(e.target).closest(".flip-card");
+
+        if ($(e.target).prop("tagName") != "I" && $clickedCard.find(".edit").is(":hidden")) {
+          //grab the containing .card regardless of what element was clicked inside the card  
+          let $clickedCard = $(e.target).closest(".flip-card");
+
+          //locate the closest classes .back and .front and toggle (hide/show)
+          $clickedCard.find(".back, .front").toggle();
+          $clickedCard.find(".edit").hide();
+
+        }
+        else if ($(e.target).prop("tagName") === "I") {
+
+          if ($(e.target).prop("className") == "bi bi-pencil-fill float-end") {
+            $clickedCard.find(".back").hide();
+            $clickedCard.find(".front").hide();
+            $clickedCard.find(".edit").show();
+          }
+          else if ($(e.target).prop("className") == "bi bi-x-lg float-end") {
+            $clickedCard.find(".front").show();
+            $clickedCard.find(".edit").hide();
+          }
+        }
+
+
+      });
+
+
+      $(".back, .edit").hide();
+      $("#quiz-things").hide();
+
+    });
+
+  </script>
+  <%- include('partials/html-end.ejs') %>

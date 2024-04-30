@@ -129,6 +129,61 @@ app.get('/flashcards', async (req, res) => {
     }); 
   });
 
+  app.post('/addQuiz2', async (req, res) => {
+  
+    try {
+
+      client.connect; 
+      const collection = client.db("quiz-database").collection("quiz-collection");
+      
+      //draws from body parser
+      console.log(req.body);
+      
+      await collection.insertOne(req.body);
+
+        
+      res.redirect('/flashcards');
+    }
+    catch(err){
+      console.log(err)
+    }
+    finally{
+    }
+  
+  });
+
+app.post('/updateQuiz2', async (req, res) => {
+    
+    
+    try {
+        console.log("req.body: ", req.body);
+        client.connect();
+        const collection = client.db("quiz-database").collection("quiz-collection");
+        let result = await collection.findOneAndUpdate(
+            { "_id": new ObjectId(req.body.id) },
+            { $set: { question: req.body.question, answer: req.body.answer } }
+        );
+        console.log(result);
+        res.redirect('/flashcards');
+    } catch (err) {
+        console.error(err);
+    }
+});
+
+app.post('/deleteQuiz2', async (req, res) => {
+    try {
+        client.connect();
+        const collection = client.db("quiz-database").collection("quiz-collection");
+        console.log(req.body);
+        let result = await collection.findOneAndDelete(
+            { "_id": new ObjectId(req.body.id) }
+        );
+        res.redirect('/flashcards');
+    } catch (err) {
+        console.error(err);
+    }
+});
+
 // Use the userRouter defined in user.js
 app.use('/', userRouter);
 

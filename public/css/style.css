@@ -373,7 +373,7 @@ footer {
  .flip-card {
   
   background-color: transparent;
-  width: 200px;
+  width: 350px;
   height: 200px;
   perspective: 1000px;
 }
@@ -386,6 +386,11 @@ footer {
   transition: transform 1s;
   transform-style: preserve-3d;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.edit {
+  background-color: #f1f1f1;
+  color: black; 
 }
 
 .flip-card:hover .flip-card-inner {
