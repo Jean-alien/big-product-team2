@@ -2,7 +2,7 @@
   "name": "big-product-team2",
   "version": "1.0.0",
   "description": "CIS 486 Quiz App",
-  "main": "index.js"
+  "main": "app.js"
   ,
   "scripts": {
     "dev": "nodemon app.js",

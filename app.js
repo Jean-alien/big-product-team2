@@ -100,7 +100,7 @@ app.get('/send', function (req, res) {
 // Use the userRouter defined in user.js
 app.use('/', userRouter);
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3600;
 app.listen(port, () => {
     console.log(`ubiquiz listening on port ${port}`);
 });

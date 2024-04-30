@@ -12,6 +12,7 @@ body {
   font-family: "Poppins", sans-serif;
   background:#112233;
   color: #ffffff;
+  max-width: 100%;
 }
 
 /* ///////////..utility classes../////////// */
@@ -51,6 +52,7 @@ body {
 .navbar .hamburger-lines {
   display: none;
 }
+
 
 .logo-header {
     width: 215px;
@@ -159,10 +161,10 @@ body {
 
 .about-img {
   flex: 1 1 50px;
-  margin: 10px 0 0 0px;
-  padding: 0 -200px;
-      width: 5%; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
+  margin: 10px 0 0 -50px;
+
+  width: 5%; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
   transform: translateX(180%);
   animation: about-img-animation 1s ease-in-out forwards;
 }
@@ -194,8 +196,8 @@ body {
   object-position: right;
 }
 .about-img img.logo {
-  width: 580px !important;
-  height: auto !important;
+  height: 400px !important;
+  width: auto !important;
 }
 #footer {
 height: 34px;

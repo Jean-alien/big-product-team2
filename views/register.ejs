@@ -15,10 +15,13 @@
     <div class="form__box">
       <form action="/register" method="post">
         <h2>Sign Up</h2>
-        <div class="input__box">
+        <div class="input__box" style="margin: 0 0 0 0;">
           <input type="text" id="name" name="username" required autocomplete="off">
           <label for="name">Username</label>
         </div>
+        <% if (typeof error !== 'undefined') { %>
+          <div class="error-message"><%= error %></div>
+        <% } %>
         <div class="input__box">   
           <input type="password" id="password" name="password" required autocomplete="off">
           <label for="password">Password</label>
@@ -43,7 +46,5 @@
       </div>
     </div>
   </div>
-
 </body>
-
 </html>

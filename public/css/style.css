@@ -376,7 +376,8 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: black;
+  height: 34px;
+  background: #141414;
   color: white;
   text-align: center;
 }

@@ -33,17 +33,11 @@
               
               <div class ="add_quiz">
               <form method="POST" action="/addQuiz">
-                  <label for="name">Course Title</label>
-                  <input name="question" placeholder="add your course title">
+                  <label for="name">Question: </label>
+                  <input name="question" placeholder="add your question">
                   <br><br>
-                  <label for="room_type">Description</label>
-                  <input name="answer" placeholder="add brief descrption">
-                  <br><br>
-                  <label for="name">Question</label>
-                  <input name="question" placeholder="...">
-                  <br><br>
-                  <label for="name">Answer</label>
-                  <input name="question" placeholder="...">
+                  <label for="room_type">Answer: </label>
+                  <input name="answer" placeholder="add your answer">
                   <br><br>
                   <button type="submit" class="btn-add">ADD</button>
                   </form>
@@ -59,8 +53,6 @@
 <h4><%= quizData.length %> Collections</h4>
 <div class="categories">
   <div class="criteria">
-    <span>Questions</span>
-    <span>Answers</span>
   </div>
 </div>
 
