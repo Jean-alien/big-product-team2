@@ -41,7 +41,7 @@ async function getQuizData() {
     } catch (err) {
         console.log("getQuizData() error:", err);
     } finally {
-        await client.close();
+        //await client.close();
     }
 }
 
@@ -81,6 +81,8 @@ app.post('/addQuiz', async (req, res) => {
   });
 
 app.post('/updateQuiz', async (req, res) => {
+    
+    
     try {
         console.log("req.body: ", req.body);
         client.connect();
