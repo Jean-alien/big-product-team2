@@ -48,10 +48,13 @@ Our User Story Board: <a href="https://github.com/Mel-Hart-coder/big-product-tea
 Our Project Progress Board: <a href="https://github.com/users/Jean-alien/projects/3">Kanban Board</a>
 
 ## Overview
-<img src="https://github.com/Jean-alien/big-product-team2/assets/156375391/37b584e8-ab5d-4e35-bee2-ff707c8d3023" alt="image" width="80%" height="70%">
+<img src="https://github.com/Jean-alien/big-product-team2/assets/156375391/37b584e8-ab5d-4e35-bee2-ff707c8d3023" alt="image" width="80%" height="90%">
 </a>
 
-<img src="https://github.com/Jean-alien/big-product-team2/assets/156375391/2e7a1403-e525-41eb-b959-120738f92c08" alt="image" width="80%" height="70%">
+<img src="https://github.com/Jean-alien/big-product-team2/assets/156375391/1b5ba5d6-2433-456f-a1cf-4881b4081351" alt="image" width="80%" height="80%">
+</a>
+
+<img src="https://github.com/Jean-alien/big-product-team2/assets/156375391/7d2100c5-5d21-4627-8210-f90881bba287" alt="image" width="80%" height="80%">
 </a>
 
 ## Similar websites
