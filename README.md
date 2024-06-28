@@ -49,7 +49,7 @@ Our Project Progress Board: <a href="https://github.com/users/Jean-alien/project
 
 ## Overview
 
-<img src="https://github.com/Jean-alien/big-product-team2/assets/156375391/37b584e8-ab5d-4e35-bee2-ff707c8d3023" alt="image" width="45%" height="45%">
+<img src="https://github.com/Jean-alien/big-product-team2/assets/156375391/37b584e8-ab5d-4e35-bee2-ff707c8d3023" alt="image" width="90%" height="90%">
 </a>
 
 ## Similar websites
