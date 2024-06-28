@@ -14,7 +14,7 @@ Render: (https://big-product-team2.onrender.com)
 
 5. Set up express.js Server and define routes
 
-   ▶ connect to MongoDB collections from #3
+   ▶ Connect to MongoDB collections from #3
    
 7. UI: Build the User Interface of Navigation bar, tabs, quiz question (main) page, login/sign-up page, About Us page, and footer
 
@@ -26,9 +26,9 @@ Render: (https://big-product-team2.onrender.com)
 
 11. Add user registration/login functionality
 
-   ▶ connect to MongoDB collections from #3
+   ▶ Connect to MongoDB collections from #3
 
-   ▶ hash the password
+   ▶ Hash the password (use Bcrypt)
 
 11. Improve the Additional UI
 
@@ -48,8 +48,10 @@ Our User Story Board: <a href="https://github.com/Mel-Hart-coder/big-product-tea
 Our Project Progress Board: <a href="https://github.com/users/Jean-alien/projects/3">Kanban Board</a>
 
 ## Overview
+<img src="https://github.com/Jean-alien/big-product-team2/assets/156375391/37b584e8-ab5d-4e35-bee2-ff707c8d3023" alt="image" width="85%" height="90%">
+</a>
 
-<img src="https://github.com/Jean-alien/big-product-team2/assets/156375391/37b584e8-ab5d-4e35-bee2-ff707c8d3023" alt="image" width="90%" height="90%">
+<img src="https://github.com/Jean-alien/big-product-team2/assets/156375391/2e7a1403-e525-41eb-b959-120738f92c08" alt="image" width="84%" height="90%">
 </a>
 
 ## Similar websites
