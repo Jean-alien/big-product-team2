@@ -4,19 +4,36 @@ Render: (https://big-product-team2.onrender.com)
 
 ## We are creating a Quiz web platform that allows users to read, create, update and delete quiz questions. 
 
-1. Set up development environment 
+1. Come up with name of our app
 
-2. Use ejs as a view engine
+2. Set up development environment (npm, node.js, etc)
 
-3. Set up API of MongoDB.
+3. Use ejs as a view engine
 
-4. Insert quiz questions and answers in MongoDB. 
+4. Create 2 new collections in MongoDB to store 1) quiz Q&As 2) user information (username, pw, etc)
 
-5. Create CRUD operation
-▶ users are able to A. View B. Add C. Modify D. Delete quiz database. 
+5. Set up express.js Server and define routes
+   ▶ connect to MongoDB collections from #3
+   
+6. UI: Build the User Interface of Navigation bar, tabs, quiz question (main) page, login/sign-up page, About Us page, and footer
 
-6. Style the webpage
-▶ layout the components
+7. Create CRUD functionlaity on main page
+   ▶ Allow users to A. View B. Add C. Edit D. Delete quiz Q&As.
+
+8. UI: Add flip animation effect to quiz flashcards
+
+9. Add user registration/login functionality
+   ▶ connect to MongoDB collections from #3
+   ▶ hash the password
+
+11. Improve the Additional UI
+▶ Add a logo
+▶ Make it more responsive ▶ Add color change animation effect on buttons on hover/click events
+~~▶ Add a scoring system to count the score~~
+
+12. Test and debug
+
+13. Deploy the webpage (Render)
 
 ## Take a closer look at our Development Journey
 Our User Story Board: <a href="https://github.com/Mel-Hart-coder/big-product-team2/wiki/Project">User Story</a> 
@@ -40,9 +57,9 @@ Quizlet makes your study more effective and interactive by providing digital fla
 ## Techs Used
 This software uses code from several opensource packages.
 
-- Node js - The client side framework used.
+- Nodejs - The client side framework used.
 - Express - The server side framework used.
-- MongoDB - The database that stores quiz questions/answers and user information including usernames & passwords.
+- MongoDB - The database that stores quiz Q&As and user information including usernames & passwords.
 - Bootstrap - UI framework with multiple web design resources.
 - Bcrypt - Provides password hash function.
 
