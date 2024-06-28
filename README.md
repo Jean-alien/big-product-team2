@@ -47,6 +47,10 @@ Our User Story Board: <a href="https://github.com/Mel-Hart-coder/big-product-tea
 
 Our Project Progress Board: <a href="https://github.com/users/Jean-alien/projects/3">Kanban Board</a>
 
+## Overview
+
+![image](https://github.com/Jean-alien/big-product-team2/assets/156375391/09e6c8c3-fed3-4828-9d66-69da07bcc16f)
+
 ## Similar websites
 ### Quizlet 
 Quizlet makes your study more effective and interactive by providing digital flashcards and quizzes!
