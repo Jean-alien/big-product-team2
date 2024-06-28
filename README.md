@@ -49,7 +49,8 @@ Our Project Progress Board: <a href="https://github.com/users/Jean-alien/project
 
 ## Overview
 
-![image](https://github.com/Jean-alien/big-product-team2/assets/156375391/09e6c8c3-fed3-4828-9d66-69da07bcc16f)
+<img src="https://github.com/Jean-alien/big-product-team2/assets/156375391/37b584e8-ab5d-4e35-bee2-ff707c8d3023" alt="image" width="45%" height="45%">
+</a>
 
 ## Similar websites
 ### Quizlet 
