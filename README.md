@@ -23,17 +23,21 @@ Render: (https://big-product-team2.onrender.com)
 8. UI: Add flip animation effect to quiz flashcards
 
 9. Add user registration/login functionality
+
    ▶ connect to MongoDB collections from #3
+
    ▶ hash the password
 
 11. Improve the Additional UI
 ▶ Add a logo
+
 ▶ Make it more responsive ▶ Add color change animation effect on buttons on hover/click events
+
 ~~▶ Add a scoring system to count the score~~
 
-12. Test and debug
+13. Test and debug
 
-13. Deploy the webpage (Render)
+14. Deploy the webpage (Render)
 
 ## Take a closer look at our Development Journey
 Our User Story Board: <a href="https://github.com/Mel-Hart-coder/big-product-team2/wiki/Project">User Story</a> 
