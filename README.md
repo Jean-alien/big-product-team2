@@ -13,22 +13,25 @@ Render: (https://big-product-team2.onrender.com)
 4. Create 2 new collections in MongoDB to store 1) quiz Q&As 2) user information (username, pw, etc)
 
 5. Set up express.js Server and define routes
+
    ▶ connect to MongoDB collections from #3
    
-6. UI: Build the User Interface of Navigation bar, tabs, quiz question (main) page, login/sign-up page, About Us page, and footer
+7. UI: Build the User Interface of Navigation bar, tabs, quiz question (main) page, login/sign-up page, About Us page, and footer
 
-7. Create CRUD functionlaity on main page
+8. Create CRUD functionlaity on main page
+
    ▶ Allow users to A. View B. Add C. Edit D. Delete quiz Q&As.
 
-8. UI: Add flip animation effect to quiz flashcards
+10. UI: Add flip animation effect to quiz flashcards
 
-9. Add user registration/login functionality
+11. Add user registration/login functionality
 
    ▶ connect to MongoDB collections from #3
 
    ▶ hash the password
 
 11. Improve the Additional UI
+
 ▶ Add a logo
 
 ▶ Make it more responsive ▶ Add color change animation effect on buttons on hover/click events
