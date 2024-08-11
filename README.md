@@ -56,7 +56,8 @@ Quizlet makes your study more effective and interactive by providing digital fla
 ## 🤖 Techs Used
 This software uses code from several opensource packages.
 
-- Nodejs - [The client side framework used.](https://backendless.com/wp-content/uploads/2013/03/js-300x300.jpg)
+- Nodejs - ![alt text](![image](https://github.com/user-attachments/assets/ba3f0bcb-3bbe-4243-bf33-65aeb8889d68)
+)
 - <img src="![image](https://github.com/user-attachments/assets/70696995-a0d7-481a-8416-dcbacdce04b4)
 " alt="image" width="80%" height="80%">
 </a>
