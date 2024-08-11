@@ -57,10 +57,10 @@ Quizlet makes your study more effective and interactive by providing digital fla
 This software uses code from several opensource packages.
  
 **Back-End**
-
+<p>
 <a href="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg" alt="image" width="6%" height="6%">
-</a></p>  <a href="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" alt="image" width="6%" height="6%"></a>
+</a>  <a href="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" alt="image" width="6%" height="6%"></a></p>
     
 - Express
 <a href="https://www.npmjs.com/package/express">
