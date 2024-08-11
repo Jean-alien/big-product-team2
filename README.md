@@ -56,11 +56,10 @@ Quizlet makes your study more effective and interactive by providing digital fla
 ## 🤖 Techs Used
 This software uses code from several opensource packages.
 
+++ Back-End
 - Nodejs
-- node.js
-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" />
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" alt="image" width="30%" height="30%">
 
-- [angular](angular.png)<img src="angular.png" height="40">
 
 - Express - The server side framework used.
 - MongoDB - The database that stores quiz Q&As and user information including usernames & passwords.
