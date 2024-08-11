@@ -57,10 +57,11 @@ Quizlet makes your study more effective and interactive by providing digital fla
 This software uses code from several opensource packages.
 <p align="left"> 
 **Back-End**
-- NPM
+<p>
+   - NPM
 <a href="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg" alt="image" width="6%" height="6%">
-</a>
+</a></p>
          
 - Nodejs
 <a href="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm">
@@ -76,13 +77,15 @@ This software uses code from several opensource packages.
 - EJS : templating engine that generates HTML Markup
 <a href="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm">
 <img src="https://www.svgrepo.com/show/373574/ejs.svg" alt="image" width="6%" height="6%"></a>
+
 - CSS
 <a href="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="image" width="6%" height="6%"></a>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="image" width="6%" height="6%"></a><
 - ~~Bootstrap - UI framework with multiple web design resources.~~
 - [![My Skills](https://skillicons.dev/icons?i=npm,nodejs,express,html,css,mongodb)](https://skillicons.dev)
-- 
 </p>
+
+
 ## 👩🏻‍🔧 Contributors
 <a href="https://github.com/Mel-Hart-coder/big-product-team2/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Mel-Hart-coder/big-product-team2" />
