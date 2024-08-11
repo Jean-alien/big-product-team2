@@ -1,8 +1,8 @@
-## Creating a study tool for students
+##  Creating a study platform for students
 
 Render: (https://big-product-team2.onrender.com)
 
-## We are creating a Quiz web platform that allows users to read, create, update and delete quiz questions. 
+## 👩🏻‍🔧 We are creating a Quiz study platform that allows users to read, create, update and delete quiz questions 📝. 
 
 1. Come up with name of our app
 
@@ -42,12 +42,13 @@ Render: (https://big-product-team2.onrender.com)
 
 14. Deploy the webpage (Render)
 
-## Take a closer look at our Development Journey
+## 👀 Take a closer look at our Development Journey
 Our User Story Board: <a href="https://github.com/Mel-Hart-coder/big-product-team2/wiki/Project">User Story</a> 
 
 Our Project Progress Board: <a href="https://github.com/users/Jean-alien/projects/3">Kanban Board</a>
 
-## Overview
+## 🔎 Overview
+## ✨ Main features
 <img src="https://github.com/Jean-alien/big-product-team2/assets/156375391/37b584e8-ab5d-4e35-bee2-ff707c8d3023" alt="image" width="80%" height="80%">
 </a>
 
@@ -65,13 +66,12 @@ Quizlet makes your study more effective and interactive by providing digital fla
   <img src="https://github.com/Mel-Hart-coder/big-product-team2/assets/156375391/3f9fb074-5712-44eb-9638-b313c2b79b85" alt="image" width="40%" height="40%">
 </a>
 
-
 <a href="https://github.com/Mel-Hart-coder/big-product-team2/assets/156375391/1b4e8a81-b784-4617-b142-559eafa10e9e">
   <img src="https://github.com/Mel-Hart-coder/big-product-team2/assets/156375391/1b4e8a81-b784-4617-b142-559eafa10e9e" alt="image" width="45%" height="45%">
 </a>
 
 
-## Techs Used
+## 🤖 Techs Used
 This software uses code from several opensource packages.
 
 - Nodejs - The client side framework used.
