@@ -1,45 +1,28 @@
-##  🔧 Creating a study platform for students
+##  🚧 Website 
 
 Render: (https://big-product-team2.onrender.com)
 
-## 👩🏻‍🔧 We are creating a Quiz study platform that allows users to read, create, update and delete quiz questions 📝. 
+## 🔧 We are creating a Quiz study platform that allows users to read, create, update and delete quiz questions 📝. 
 
 1. Come up with name of our app
 2. Set up development environment (npm, node.js, etc)
-
 3. Use ejs as a view engine
-
 4. Create 2 new collections in MongoDB to store 1) quiz Q&As 2) user information (username, pw, etc)
-
 5. Set up express.js Server and define routes
-
-   ▶ Connect to MongoDB collections from #3
-   
-7. UI: Build the User Interface of Navigation bar, tabs, quiz question (main) page, login/sign-up page, About Us page, and footer
-
-8. Create CRUD functionlaity on main page
-
+   ▶ Connect to MongoDB collections from #3   
+6. UI: Build the User Interface of Navigation bar, tabs, quiz question (main) page, login/sign-up page, About Us page, and footer
+7. Create CRUD functionlaity on main page
    ▶ Allow users to A. View B. Add C. Edit D. Delete quiz Q&As.
-
-10. UI: Add flip animation effect to quiz flashcards
-
-11. Add user registration/login functionality
-
+8. UI: Add flip animation effect to quiz flashcards
+9. Add user registration/login functionality
    ▶ Connect to MongoDB collections from #3
-
    ▶ Hash the password (use Bcrypt)
-
-11. Improve the Additional UI
-
-▶ Add a logo
-
+10. Improve the Additional UI
+▶ Add a logo 🦉
 ▶ Make it more responsive ▶ Add color change animation effect on buttons on hover/click events
-
 ~~▶ Add a scoring system to count the score~~
-
-13. Test and debug
-
-14. Deploy the webpage (Render)
+11. Test and debug
+12. Deploy the webpage (Render)
 
 ## 👀 Take a closer look at our Development Journey
 Our User Story Board: <a href="https://github.com/Mel-Hart-coder/big-product-team2/wiki/Project">User Story</a> 
@@ -73,13 +56,15 @@ Quizlet makes your study more effective and interactive by providing digital fla
 ## 🤖 Techs Used
 This software uses code from several opensource packages.
 
-- Nodejs - The client side framework used.
+- Nodejs - [The client side framework used.](https://backendless.com/wp-content/uploads/2013/03/js-300x300.jpg)
+- <img src="[https://github.com/Jean-alien/big-product-team2/assets/156375391/37b584e8-ab5d-4e35-bee2-ff707c8d3023](https://backendless.com/wp-content/uploads/2013/03/js-300x300.jpg)" alt="image" width="80%" height="80%">
+</a>
 - Express - The server side framework used.
 - MongoDB - The database that stores quiz Q&As and user information including usernames & passwords.
 - EJS - templating engine that generates HTML markup
 - ~~Bootstrap - UI framework with multiple web design resources.~~
 
-## Contributors
+## 👩🏻‍🔧 Contributors
 <a href="https://github.com/Mel-Hart-coder/big-product-team2/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Mel-Hart-coder/big-product-team2" />
 </a>
