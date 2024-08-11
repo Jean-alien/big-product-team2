@@ -58,9 +58,8 @@ This software uses code from several opensource packages.
 
 - Nodejs - ![alt text](![image](https://github.com/user-attachments/assets/ba3f0bcb-3bbe-4243-bf33-65aeb8889d68)
 )
-- <img src="![image](https://github.com/user-attachments/assets/70696995-a0d7-481a-8416-dcbacdce04b4)
-" alt="image" width="80%" height="80%">
-</a>
+- [angular](angular.png)<img src="angular.png" height="40">
+
 - Express - The server side framework used.
 - MongoDB - The database that stores quiz Q&As and user information including usernames & passwords.
 - EJS - templating engine that generates HTML markup
