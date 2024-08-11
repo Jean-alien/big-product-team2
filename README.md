@@ -55,17 +55,18 @@ Quizlet makes your study more effective and interactive by providing digital fla
 
 ## 🤖 Tech stacks Used
 This software uses code from several opensource packages.
-<p align="left"> 
+ 
 **Back-End**
-<p>
-   - NPM
+
+- NPM 
 <a href="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg" alt="image" width="6%" height="6%">
 </a></p>
          
 - Nodejs
 <a href="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" alt="image" width="6%" height="6%"></a>          
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" alt="image" width="6%" height="6%"></a>
+    
 - Express
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" alt="image" width="5%" height="5%">
 
@@ -75,12 +76,15 @@ This software uses code from several opensource packages.
 
 **Front-End**  
 - EJS : templating engine that generates HTML Markup
+
 <a href="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm">
 <img src="https://www.svgrepo.com/show/373574/ejs.svg" alt="image" width="6%" height="6%"></a>
 
 - CSS
 <a href="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="image" width="6%" height="6%"></a><
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="image" width="6%" height="6%"></a>
+
+
 - ~~Bootstrap - UI framework with multiple web design resources.~~
 - [![My Skills](https://skillicons.dev/icons?i=npm,nodejs,express,html,css,mongodb)](https://skillicons.dev)
 </p>
