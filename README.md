@@ -57,7 +57,8 @@ Quizlet makes your study more effective and interactive by providing digital fla
 This software uses code from several opensource packages.
 
 - Nodejs - [The client side framework used.](https://backendless.com/wp-content/uploads/2013/03/js-300x300.jpg)
-- <img src="[https://github.com/Jean-alien/big-product-team2/assets/156375391/37b584e8-ab5d-4e35-bee2-ff707c8d3023](https://backendless.com/wp-content/uploads/2013/03/js-300x300.jpg)" alt="image" width="80%" height="80%">
+- <img src="![image](https://github.com/user-attachments/assets/70696995-a0d7-481a-8416-dcbacdce04b4)
+" alt="image" width="80%" height="80%">
 </a>
 - Express - The server side framework used.
 - MongoDB - The database that stores quiz Q&As and user information including usernames & passwords.
