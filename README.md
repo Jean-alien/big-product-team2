@@ -56,8 +56,10 @@ Quizlet makes your study more effective and interactive by providing digital fla
 ## 🤖 Techs Used
 This software uses code from several opensource packages.
 
-- Nodejs - ![alt text](![image](https://github.com/user-attachments/assets/ba3f0bcb-3bbe-4243-bf33-65aeb8889d68)
-)
+- Nodejs
+- node.js
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" />
+
 - [angular](angular.png)<img src="angular.png" height="40">
 
 - Express - The server side framework used.
