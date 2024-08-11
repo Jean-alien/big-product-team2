@@ -57,8 +57,14 @@ Quizlet makes your study more effective and interactive by providing digital fla
 This software uses code from several opensource packages.
 
 + Back-End
+- NPM
+<a href="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg" alt="image" width="10%" height="10%">
+</a>
+          
 - Nodejs
-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" alt="image" width="30%" height="30%">
+- Express
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" alt="image" width="10%" height="10%">
 [![My Skills](https://skillicons.dev/icons?i=npm,nodejs,express,html,css,mongodb)](https://skillicons.dev)
 
 - Express - The server side framework used.
