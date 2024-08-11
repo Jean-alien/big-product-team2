@@ -57,7 +57,9 @@ Quizlet makes your study more effective and interactive by providing digital fla
 This software uses code from several opensource packages.
  
 **Back-End**
+- <span style="display: inline-block; vertical-align: middle;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg" alt="image" width="32px" height="32px"> NPM</span>
 
+- <span style="display: inline-block; vertical-align: middle;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" alt="image" width="32px" height="32px"> Nodejs</span>
 
 <span style="display: inline-block; vertical-align: middle;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg" alt="image" width="6%" height="6%"> NPM</span>
 
