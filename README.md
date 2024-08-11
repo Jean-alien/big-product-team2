@@ -58,6 +58,16 @@ This software uses code from several opensource packages.
  
 **Back-End**
 
+
+- <span style="display: inline-block; vertical-align: middle;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg" alt="image" width="6%" height="6%"> NPM</span>
+
+- <span style="display: inline-block; vertical-align: middle;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" alt="image" width="6%" height="6%"> Nodejs</span>
+
+- <span style="display: inline-block; vertical-align: middle;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" alt="image" width="5%" height="5%"> Express</span>
+
+- <span style="display: inline-block; vertical-align: middle;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg" alt="image" width="6%" height="6%"> MongoDB</span>
+
+
 - NPM 
 <a href="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg" alt="image" width="6%" height="6%">
