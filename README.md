@@ -59,7 +59,7 @@ This software uses code from several opensource packages.
 ++ Back-End
 - Nodejs
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" alt="image" width="30%" height="30%">
-
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,wasm)](https://skillicons.dev)
 
 - Express - The server side framework used.
 - MongoDB - The database that stores quiz Q&As and user information including usernames & passwords.
