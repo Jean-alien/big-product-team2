@@ -59,17 +59,20 @@ This software uses code from several opensource packages.
 + Back-End
 - NPM
 <a href="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg" alt="image" width="10%" height="10%">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg" alt="image" width="5%" height="5%">
 </a>
-          
+         
 - Nodejs
+<a href="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" alt="image" width="5%" height="5%"></a>          
 - Express
-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" alt="image" width="10%" height="10%">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" alt="image" width="5%" height="5%">
 [![My Skills](https://skillicons.dev/icons?i=npm,nodejs,express,html,css,mongodb)](https://skillicons.dev)
+- MongoDB : The database that stores quiz Q&As and user information including usernames & passwords.
 
-- Express - The server side framework used.
-- MongoDB - The database that stores quiz Q&As and user information including usernames & passwords.
 - EJS - templating engine that generates HTML markup
+- <a href="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm">
+<img src="https://www.svgrepo.com/show/373574/ejs.svg" alt="image" width="5%" height="5%"></a>     
 - ~~Bootstrap - UI framework with multiple web design resources.~~
 
 ## 👩🏻‍🔧 Contributors
