@@ -1,11 +1,10 @@
-##  Creating a study platform for students
+##  🔧 Creating a study platform for students
 
 Render: (https://big-product-team2.onrender.com)
 
 ## 👩🏻‍🔧 We are creating a Quiz study platform that allows users to read, create, update and delete quiz questions 📝. 
 
 1. Come up with name of our app
-
 2. Set up development environment (npm, node.js, etc)
 
 3. Use ejs as a view engine
