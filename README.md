@@ -1,5 +1,4 @@
 ##  🚧 Website 
-
 Render: (https://big-product-team2.onrender.com)
 
 ## 🔧 We are creating a Quiz study platform that allows users to read, create, update and delete quiz questions 📝. 
@@ -29,10 +28,9 @@ Render: (https://big-product-team2.onrender.com)
 Our User Story Board: <a href="https://github.com/Mel-Hart-coder/big-product-team2/wiki/Project">User Story</a> <br/>
 Our Project Progress Board: <a href="https://github.com/users/Jean-alien/projects/3">Kanban Board</a>
 
-## 🔎 Overview
-## ✨ Main features
+## ✨ Key features
 1. Users can add and view Q&As on flashcards. <br/>
-<img src="https://github.com/user-attachments/assets/2455f547-54eb-4988-8908-3983416fe1a6" width="50%" height="50%"/><br/>
+<img src="https://github.com/user-attachments/assets/2455f547-54eb-4988-8908-3983416fe1a6" width="50%" height="50%"/>
 2. Users can update contents of flashcards. <br/>
 <img src="https://github.com/user-attachments/assets/c57382a1-27ce-4eb9-9466-08778dad2d86" width="50%" height="80%"/><br/>
 3. Users can delete existing flashcards. <br/>
@@ -40,7 +38,7 @@ Our Project Progress Board: <a href="https://github.com/users/Jean-alien/project
 4. Users can flip the flashcards for their study. <br/>
 <img src="https://github.com/user-attachments/assets/10c234a7-a590-46fd-ac51-b9d2381da110" width="50%" height="50%"/><br/>
 5. Users can sign up for account and login. <br/>
-<img src="https://github.com/user-attachments/assets/4f0dee78-3b87-42c5-9b2b-29c80d5aec42" width="40%" height="40%"/>  <img src="https://github.com/user-attachments/assets/0ad6c824-5e2e-4e7b-aa78-75b434221c08" width="45%" height="45%"/>
+<img src="https://github.com/user-attachments/assets/4f0dee78-3b87-42c5-9b2b-29c80d5aec42" width="42%" height="42%"/>  <img src="https://github.com/user-attachments/assets/0ad6c824-5e2e-4e7b-aa78-75b434221c08" width="42%" height="42%"/>
 
 
 ## Similar website
