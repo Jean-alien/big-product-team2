@@ -36,15 +36,14 @@ Our Project Progress Board: <a href="https://github.com/users/Jean-alien/project
 
 ## 🔎 Overview
 ## ✨ Main features
-<img src="https://github.com/Jean-alien/big-product-team2/assets/156375391/37b584e8-ab5d-4e35-bee2-ff707c8d3023" alt="image" width="80%" height="80%">
-</a>
 1. Users can add and view Q&As on flashcards.
 <img src="https://github.com/user-attachments/assets/2455f547-54eb-4988-8908-3983416fe1a6" width="70%" height="70%"/>
 2. Users can update contents of flashcards.
 
 3. Users can delete existing flashcards. 
 <img src="https://github.com/user-attachments/assets/30999c50-51f0-4553-ae2a-77a4f7fe9a47" width="70%" height="70%"/>
-
+4. Users can flip the flashcards for their study. 
+<img src="https://github.com/user-attachments/assets/10c234a7-a590-46fd-ac51-b9d2381da110" width="70%" height="70%"/>
 
 
 <img src="https://github.com/Jean-alien/big-product-team2/assets/156375391/1b5ba5d6-2433-456f-a1cf-4881b4081351" alt="image" width="80%" height="80%">
