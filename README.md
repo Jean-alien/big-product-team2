@@ -43,8 +43,8 @@ Our Project Progress Board: <a href="https://github.com/users/Jean-alien/project
 <img src="https://github.com/user-attachments/assets/10c234a7-a590-46fd-ac51-b9d2381da110" width="60%" height="60%"/><br/>
 5. Users can sign up for account and login. <br/>
 <div>
-  <img src="https://github.com/user-attachments/assets/4f0dee78-3b87-42c5-9b2b-29c80d5aec42" width="60%" height="60%"/><br/>
-  <img src="https://github.com/user-attachments/assets/0ad6c824-5e2e-4e7b-aa78-75b434221c08" width="60%" height="60%"/>
+    <img src="https://github.com/user-attachments/assets/4f0dee78-3b87-42c5-9b2b-29c80d5aec42" width="60%" height="60%"/><br/>
+    <img src="https://github.com/user-attachments/assets/0ad6c824-5e2e-4e7b-aa78-75b434221c08" width="60%" height="60%"/>
 </div>
 
 
@@ -53,8 +53,7 @@ Our Project Progress Board: <a href="https://github.com/users/Jean-alien/project
 Quizlet makes your study more effective and interactive by providing digital flashcards and quizzes! <br/>
 <a href="https://github.com/Mel-Hart-coder/big-product-team2/assets/156375391/3f9fb074-5712-44eb-9638-b313c2b79b85">
   <img src="https://github.com/Mel-Hart-coder/big-product-team2/assets/156375391/3f9fb074-5712-44eb-9638-b313c2b79b85" alt="image" width="40%" height="40%">
-</a><br/>
-<a href="https://github.com/Mel-Hart-coder/big-product-team2/assets/156375391/1b4e8a81-b784-4617-b142-559eafa10e9e">
+</a>  <a href="https://github.com/Mel-Hart-coder/big-product-team2/assets/156375391/1b4e8a81-b784-4617-b142-559eafa10e9e">
   <img src="https://github.com/Mel-Hart-coder/big-product-team2/assets/156375391/1b4e8a81-b784-4617-b142-559eafa10e9e" alt="image" width="45%" height="45%">
 </a>
 
@@ -78,12 +77,12 @@ This software uses code from several opensource packages.
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="image" width="6%" height="6%"></a>   
 </p>
 
-**Back-End** <br/>
+**Back-End**
 - NPM
 - Node.js/Express.js
 - MongoDB : The database that stores quiz Q&As and user information including usernames & passwords.
 
-**Front-End**  <br/>
+**Front-End**
 - EJS : templating engine that generates HTML Markup
 - HTML/CSS
 
