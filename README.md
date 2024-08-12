@@ -9,22 +9,31 @@ Render: (https://big-product-team2.onrender.com)
 3. Use ejs as a view engine
 4. Create 2 new collections in MongoDB to store 1) quiz Q&As 2) user information (username, pw, etc)
 5. Set up express.js Server and define routes
-   ▶ Connect to MongoDB collections from #3   
-6. UI: Build the User Interface of Navigation bar, tabs, quiz question (main) page, login/sign-up page, About Us page, and footer
-7. Create CRUD functionlaity on main page
-   ▶ Allow users to A. View B. Add C. Edit D. Delete quiz Q&As.
-8. UI: Add flip animation effect to quiz flashcards
-9. Add user registration/login functionality
-   ▶ Connect to MongoDB collections from #3
-   ▶ Hash the password (use Bcrypt)
-10. Improve the Additional UI
-▶ Add a logo 🦉
-▶ Make it more responsive ▶ Add color change animation effect on buttons on hover/click events
-~~▶ Add a scoring system to count the score~~
-11. Test and debug
-12. Deploy the webpage (Render)
 
-## 👀 Take a closer look at our Development Journey
+   ▶ Connect to MongoDB collections from #3   
+7. UI: Build the User Interface of Navigation bar, tabs, quiz question (main) page, login/sign-up page, About Us page, and footer
+8. Create CRUD functionlaity on main page
+
+   ▶ Allow users to A. View B. Add C. Edit D. Delete quiz Q&As.
+10. UI: Add flip animation effect to quiz flashcards
+11. Add user registration/login functionality
+
+▶ Connect to MongoDB collections from #3
+   
+▶ Hash the password (use Bcrypt)
+13. Improve the Additional UI
+
+▶ Add a logo 🦉
+
+▶ Make it more responsive 
+
+▶ Add color change animation effect on buttons on hover/click events
+
+~~▶ Add a scoring system to count the score~~
+14. Test and debug
+15. Deploy the webpage (Render)
+
+## 🔎 Take a closer look at our Development Journey
 Our User Story Board: <a href="https://github.com/Mel-Hart-coder/big-product-team2/wiki/Project">User Story</a> 
 
 Our Project Progress Board: <a href="https://github.com/users/Jean-alien/projects/3">Kanban Board</a>
@@ -56,7 +65,6 @@ Quizlet makes your study more effective and interactive by providing digital fla
 ## 🤖 Tech stacks Used
 This software uses code from several opensource packages.
  
-**Back-End**
 <p>
 <a href="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg" alt="image" width="6%" height="6%">
@@ -73,18 +81,19 @@ This software uses code from several opensource packages.
 <a href="https://www.w3schools.com/css/">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="image" width="6%" height="6%"></a>   
 </p>
+
+**Back-End**
 - NPM
+
 - Node.js/Express.js
+- 
 - MongoDB : The database that stores quiz Q&As and user information including usernames & passwords.
 
 **Front-End**  
+
 - EJS : templating engine that generates HTML Markup
+- 
 - HTML/CSS
-
-- ~~Bootstrap - UI framework with multiple web design resources.~~
-- [![My Skills](https://skillicons.dev/icons?i=npm,nodejs,express,html,css,mongodb)](https://skillicons.dev)
-
-
 
 ## 👩🏻‍🔧 Contributors
 <a href="https://github.com/Mel-Hart-coder/big-product-team2/graphs/contributors">
