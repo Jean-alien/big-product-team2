@@ -41,9 +41,9 @@ Our Project Progress Board: <a href="https://github.com/users/Jean-alien/project
 2. Users can update contents of flashcards. 
 
 3. Users can delete existing flashcards. 
-<img src="https://github.com/user-attachments/assets/30999c50-51f0-4553-ae2a-77a4f7fe9a47" width="70%" height="70%"/>
-4. Users can flip the flashcards for their study. 
-<img src="https://github.com/user-attachments/assets/10c234a7-a590-46fd-ac51-b9d2381da110" width="70%" height="70%"/>
+<img src="https://github.com/user-attachments/assets/30999c50-51f0-4553-ae2a-77a4f7fe9a47" width="70%" height="70%"/><br/>
+4. Users can flip the flashcards for their study. <br/>
+<img src="https://github.com/user-attachments/assets/10c234a7-a590-46fd-ac51-b9d2381da110" width="70%" height="70%"/><br/>
 
 
 <img src="https://github.com/Jean-alien/big-product-team2/assets/156375391/1b5ba5d6-2433-456f-a1cf-4881b4081351" alt="image" width="80%" height="80%">
@@ -58,8 +58,7 @@ Quizlet makes your study more effective and interactive by providing digital fla
 
 <a href="https://github.com/Mel-Hart-coder/big-product-team2/assets/156375391/3f9fb074-5712-44eb-9638-b313c2b79b85">
   <img src="https://github.com/Mel-Hart-coder/big-product-team2/assets/156375391/3f9fb074-5712-44eb-9638-b313c2b79b85" alt="image" width="40%" height="40%">
-</a>
-
+</a><br/>
 <a href="https://github.com/Mel-Hart-coder/big-product-team2/assets/156375391/1b4e8a81-b784-4617-b142-559eafa10e9e">
   <img src="https://github.com/Mel-Hart-coder/big-product-team2/assets/156375391/1b4e8a81-b784-4617-b142-559eafa10e9e" alt="image" width="45%" height="45%">
 </a>
