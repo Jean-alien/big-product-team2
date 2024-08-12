@@ -41,7 +41,7 @@ Our Project Progress Board: <a href="https://github.com/users/Jean-alien/project
 2. Users can update contents of flashcards. <br/>
 
 3. Users can delete existing flashcards. <br/>
-<img src="https://github.com/user-attachments/assets/30999c50-51f0-4553-ae2a-77a4f7fe9a47" width="70%" height="70%"/>
+<img src="https://github.com/user-attachments/assets/30999c50-51f0-4553-ae2a-77a4f7fe9a47" width="70%" height="70%"/> <br/>
 4. Users can flip the flashcards for their study. <br/>
 <img src="https://github.com/user-attachments/assets/10c234a7-a590-46fd-ac51-b9d2381da110" width="70%" height="70%"/>
 
