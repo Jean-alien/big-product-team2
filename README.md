@@ -36,9 +36,9 @@ Our Project Progress Board: <a href="https://github.com/users/Jean-alien/project
 
 ## 🔎 Overview
 ## ✨ Main features
-1. Users can add and view Q&As on flashcards.
-<img src="https://github.com/user-attachments/assets/2455f547-54eb-4988-8908-3983416fe1a6" width="70%" height="70%"/>
-2. Users can update contents of flashcards.
+1. Users can add and view Q&As on flashcards. <br/>
+<img src="https://github.com/user-attachments/assets/2455f547-54eb-4988-8908-3983416fe1a6" width="70%" height="70%"/><br/>
+2. Users can update contents of flashcards. 
 
 3. Users can delete existing flashcards. 
 <img src="https://github.com/user-attachments/assets/30999c50-51f0-4553-ae2a-77a4f7fe9a47" width="70%" height="70%"/>
