@@ -18,15 +18,12 @@ Render: (https://big-product-team2.onrender.com)
 10. UI: Add flip animation effect to quiz flashcards
 11. Add user registration/login functionality
 
-▶ Connect to MongoDB collections from #3
-   
+▶ Connect to MongoDB collections from #3 <br/>
 ▶ Hash the password (use Bcrypt)
 13. Improve the Additional UI
 
-▶ Add a logo 🦉
-
-▶ Make it more responsive 
-
+▶ Add a logo 🦉 <br/>
+▶ Make it more responsive <br/>
 ▶ Add color change animation effect on buttons on hover/click events
 
 ~~▶ Add a scoring system to count the score~~
@@ -34,18 +31,21 @@ Render: (https://big-product-team2.onrender.com)
 15. Deploy the webpage (Render)
 
 ## 🔎 Take a closer look at our Development Journey
-Our User Story Board: <a href="https://github.com/Mel-Hart-coder/big-product-team2/wiki/Project">User Story</a> 
-
+Our User Story Board: <a href="https://github.com/Mel-Hart-coder/big-product-team2/wiki/Project">User Story</a> <br/>
 Our Project Progress Board: <a href="https://github.com/users/Jean-alien/projects/3">Kanban Board</a>
 
 ## 🔎 Overview
 ## ✨ Main features
 <img src="https://github.com/Jean-alien/big-product-team2/assets/156375391/37b584e8-ab5d-4e35-bee2-ff707c8d3023" alt="image" width="80%" height="80%">
 </a>
+1. Users can add and view Q&As on flashcards.
 <img src="https://github.com/user-attachments/assets/2455f547-54eb-4988-8908-3983416fe1a6" width="70%" height="70%"/>
+2. Users can update contents of flashcards.
+
+3. Users can delete existing flashcards. 
+<img src="https://github.com/user-attachments/assets/30999c50-51f0-4553-ae2a-77a4f7fe9a47" width="70%" height="70%"/>
 
 
-![create_flashcard](https://github.com/user-attachments/assets/2455f547-54eb-4988-8908-3983416fe1a6)
 
 <img src="https://github.com/Jean-alien/big-product-team2/assets/156375391/1b5ba5d6-2433-456f-a1cf-4881b4081351" alt="image" width="80%" height="80%">
 </a>
@@ -53,7 +53,7 @@ Our Project Progress Board: <a href="https://github.com/users/Jean-alien/project
 <img src="https://github.com/Jean-alien/big-product-team2/assets/156375391/7d2100c5-5d21-4627-8210-f90881bba287" alt="image" width="80%" height="80%">
 </a>
 
-## Similar websites
+## Similar website
 ### Quizlet 
 Quizlet makes your study more effective and interactive by providing digital flashcards and quizzes!
 
