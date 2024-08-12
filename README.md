@@ -73,30 +73,13 @@ This software uses code from several opensource packages.
 <a href="https://www.w3schools.com/css/">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="image" width="6%" height="6%"></a>   
 </p>
-
-- Express
-
+- NPM
+- Node.js/Express.js
 - MongoDB : The database that stores quiz Q&As and user information including usernames & passwords.
 
 **Front-End**  
 - EJS : templating engine that generates HTML Markup
-
-- HTML
-
-          
-- CSS
-
-<p align="left"> 
-   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://icongr.am/devicon/javascript-original.svg?size=128&color=currentColor" alt="javascript" width="40" height="40"/> </a> 
-    <a href="https://www.typescriptlang.org/" target="_blank"> <img src="https://icongr.am/devicon/typescript-original.svg?size=128&color=currentColor" alt="typescript" width="40" height="40"/> </a> 
-   <a href="https://reactjs.org/" target="_blank"> <img src="https://icongr.am/devicon/react-original.svg?size=128&color=currentColor" alt="react" width="40" height="40"/> </a> 
-    <a href="https://graphql.github.io/" target="_blank"> <img src="https://user-images.githubusercontent.com/25126281/102015838-d4678280-3d55-11eb-81d2-cd2a79ea3a82.png" alt="css3" width="40" height="40"/> </a> 
-   <a href="https://nodejs.org" target="_blank"> <img src="https://icongr.am/devicon/nodejs-original-wordmark.svg?size=128&color=currentColor" alt="nodejs" width="40" height="40"/> </a> 
-   <a href="https://expressjs.com" target="_blank"> <img src="https://icongr.am/devicon/express-original-wordmark.svg?size=128&color=currentColor" alt="express" width="40" height="40"/> </a> 
-   <a href="https://www.mongodb.com/" target="_blank"> <img src="https://icongr.am/devicon/mongodb-original-wordmark.svg?size=128&color=currentColor" alt="mongodb" width="40" height="40"/> </a> 
-   <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://icongr.am/devicon/css3-original-wordmark.svg?size=128&color=currentColor" alt="css3" width="40" height="40"/> </a> 
-</p>
-
+- HTML/CSS
 
 - ~~Bootstrap - UI framework with multiple web design resources.~~
 - [![My Skills](https://skillicons.dev/icons?i=npm,nodejs,express,html,css,mongodb)](https://skillicons.dev)
