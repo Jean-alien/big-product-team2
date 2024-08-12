@@ -10,11 +10,11 @@ Render: (https://big-product-team2.onrender.com)
 4. Create 2 new collections in MongoDB to store 1) quiz Q&As 2) user information (username, pw, etc)
 5. Set up express.js Server and define routes
 
-   ▶ Connect to MongoDB collections from #3   
+▶ Connect to MongoDB collections from #3 <br/>
 7. UI: Build the User Interface of Navigation bar, tabs, quiz question (main) page, login/sign-up page, About Us page, and footer
 8. Create CRUD functionlaity on main page
 
-   ▶ Allow users to A. View B. Add C. Edit D. Delete quiz Q&As.
+▶ Allow users to A. View B. Add C. Edit D. Delete quiz Q&As. <br/>
 10. UI: Add flip animation effect to quiz flashcards
 11. Add user registration/login functionality
 
@@ -43,8 +43,8 @@ Our Project Progress Board: <a href="https://github.com/users/Jean-alien/project
 3. Users can delete existing flashcards. <br/>
 <img src="https://github.com/user-attachments/assets/30999c50-51f0-4553-ae2a-77a4f7fe9a47" width="70%" height="70%"/> <br/>
 4. Users can flip the flashcards for their study. <br/>
-<img src="https://github.com/user-attachments/assets/10c234a7-a590-46fd-ac51-b9d2381da110" width="70%" height="70%"/>
-5. Users can sign up for account and login.
+<img src="https://github.com/user-attachments/assets/10c234a7-a590-46fd-ac51-b9d2381da110" width="70%" height="70%"/><br/>
+5. Users can sign up for account and login. <br/>
 
 <img src="https://github.com/Jean-alien/big-product-team2/assets/156375391/1b5ba5d6-2433-456f-a1cf-4881b4081351" alt="image" width="80%" height="80%">
 </a>
@@ -54,8 +54,7 @@ Our Project Progress Board: <a href="https://github.com/users/Jean-alien/project
 
 ## Similar website
 ### Quizlet 
-Quizlet makes your study more effective and interactive by providing digital flashcards and quizzes!
-
+Quizlet makes your study more effective and interactive by providing digital flashcards and quizzes! <br/>
 <a href="https://github.com/Mel-Hart-coder/big-product-team2/assets/156375391/3f9fb074-5712-44eb-9638-b313c2b79b85">
   <img src="https://github.com/Mel-Hart-coder/big-product-team2/assets/156375391/3f9fb074-5712-44eb-9638-b313c2b79b85" alt="image" width="40%" height="40%">
 </a><br/>
@@ -83,15 +82,13 @@ This software uses code from several opensource packages.
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="image" width="6%" height="6%"></a>   
 </p>
 
-**Back-End**
+**Back-End** <br/>
 - NPM
 - Node.js/Express.js
 - MongoDB : The database that stores quiz Q&As and user information including usernames & passwords.
 
-**Front-End**  
-
+**Front-End**  <br/>
 - EJS : templating engine that generates HTML Markup
-- 
 - HTML/CSS
 
 ## 👩🏻‍🔧 Contributors
