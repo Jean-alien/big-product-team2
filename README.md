@@ -42,7 +42,7 @@ Our Project Progress Board: <a href="https://github.com/users/Jean-alien/project
 ## ✨ Main features
 <img src="https://github.com/Jean-alien/big-product-team2/assets/156375391/37b584e8-ab5d-4e35-bee2-ff707c8d3023" alt="image" width="80%" height="80%">
 </a>
-
+<img src="https://github.com/user-attachments/assets/2455f547-54eb-4988-8908-3983416fe1a6" width="250" height="250"/>
 ![create_flashcard](https://github.com/user-attachments/assets/2455f547-54eb-4988-8908-3983416fe1a6)
 
 <img src="https://github.com/Jean-alien/big-product-team2/assets/156375391/1b5ba5d6-2433-456f-a1cf-4881b4081351" alt="image" width="80%" height="80%">
