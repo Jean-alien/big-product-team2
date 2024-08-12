@@ -8,8 +8,7 @@ Render: (https://big-product-team2.onrender.com)
 2. Set up development environment (npm, node.js, etc)
 3. Use ejs as a view engine
 4. Create 2 new collections in MongoDB to store 1) quiz Q&As 2) user information (username, pw, etc)
-5. Set up express.js Server and define routes
-
+5. Set up express.js Server and define routes87
 6. Connect to MongoDB collections from #3 <br/>
 7. UI: Build the User Interface of Navigation bar, tabs, quiz question (main) page, login/sign-up page, About Us page, and footer
 8. Create CRUD functionlaity on main page
@@ -22,9 +21,8 @@ Render: (https://big-product-team2.onrender.com)
   ▶ Add a logo 🦉 <br/>
   ▶ Make it more responsive <br/>
   ▶ Add color change animation effect on buttons on hover/click events
-
 ~~▶ Add a scoring system to count the score~~
-14. Test and debug
+14. Test and debug <br/>
 15. Deploy the webpage (Render)
 
 ## 🔎 Take a closer look at our Development Journey
@@ -34,15 +32,15 @@ Our Project Progress Board: <a href="https://github.com/users/Jean-alien/project
 ## 🔎 Overview
 ## ✨ Main features
 1. Users can add and view Q&As on flashcards. <br/>
-<img src="https://github.com/user-attachments/assets/2455f547-54eb-4988-8908-3983416fe1a6" width="55%" height="55%"/><br/>
+<img src="https://github.com/user-attachments/assets/2455f547-54eb-4988-8908-3983416fe1a6" width="50%" height="50%"/><br/>
 2. Users can update contents of flashcards. <br/>
-<img src="https://github.com/user-attachments/assets/c57382a1-27ce-4eb9-9466-08778dad2d86" width="55%" height="80%"/><br/>
+<img src="https://github.com/user-attachments/assets/c57382a1-27ce-4eb9-9466-08778dad2d86" width="50%" height="80%"/><br/>
 3. Users can delete existing flashcards. <br/>
-<img src="https://github.com/user-attachments/assets/30999c50-51f0-4553-ae2a-77a4f7fe9a47" width="55%" height="55%"/> <br/>
+<img src="https://github.com/user-attachments/assets/30999c50-51f0-4553-ae2a-77a4f7fe9a47" width="50%" height="50%"/> <br/>
 4. Users can flip the flashcards for their study. <br/>
-<img src="https://github.com/user-attachments/assets/10c234a7-a590-46fd-ac51-b9d2381da110" width="55%" height="55%"/><br/>
+<img src="https://github.com/user-attachments/assets/10c234a7-a590-46fd-ac51-b9d2381da110" width="50%" height="50%"/><br/>
 5. Users can sign up for account and login. <br/>
-<img src="https://github.com/user-attachments/assets/4f0dee78-3b87-42c5-9b2b-29c80d5aec42" width="40%" height="40%"/>  <img src="https://github.com/user-attachments/assets/0ad6c824-5e2e-4e7b-aa78-75b434221c08" width="40%" height="40%"/>
+<img src="https://github.com/user-attachments/assets/4f0dee78-3b87-42c5-9b2b-29c80d5aec42" width="40%" height="40%"/>  <img src="https://github.com/user-attachments/assets/0ad6c824-5e2e-4e7b-aa78-75b434221c08" width="45%" height="45%"/>
 
 
 ## Similar website
